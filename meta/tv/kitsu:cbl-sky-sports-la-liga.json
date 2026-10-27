@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-sky-sports-la-liga",
+    "type": "tv",
+    "name": "Sky Sports La Liga",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-sky-sports-la-liga.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-sky-sports-la-liga.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-sky-sports-la-liga.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "Fútbol"
+    ],
+    "description": "Canal en vivo — Sky Sports La Liga."
+  }
+}

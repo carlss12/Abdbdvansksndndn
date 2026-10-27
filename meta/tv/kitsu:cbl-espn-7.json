@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-espn-7",
+    "type": "tv",
+    "name": "ESPN 7",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-espn-7.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-espn-7.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-espn-7.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "Canal en vivo — ESPN 7."
+  }
+}

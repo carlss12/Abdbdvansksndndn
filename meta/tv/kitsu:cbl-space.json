@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-space",
+    "type": "tv",
+    "name": "Space",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-space.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-space.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-space.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "Cine y series"
+    ],
+    "description": "Canal en vivo — Space."
+  }
+}

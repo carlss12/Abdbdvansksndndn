@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-tnt-sports-premium",
+    "type": "tv",
+    "name": "TNT Sports Premium",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-tnt-sports-premium.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-tnt-sports-premium.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-tnt-sports-premium.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "Canal en vivo — TNT Sports Premium."
+  }
+}

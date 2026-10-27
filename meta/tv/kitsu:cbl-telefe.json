@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-telefe",
+    "type": "tv",
+    "name": "Telefe",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-telefe.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-telefe.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-telefe.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "TV abierta"
+    ],
+    "description": "Canal en vivo — Telefe."
+  }
+}

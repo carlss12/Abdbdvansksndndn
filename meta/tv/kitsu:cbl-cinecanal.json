@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-cinecanal",
+    "type": "tv",
+    "name": "Cinecanal",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-cinecanal.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-cinecanal.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-cinecanal.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "Cine y series"
+    ],
+    "description": "Canal en vivo — Cinecanal."
+  }
+}

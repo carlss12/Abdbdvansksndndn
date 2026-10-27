@@ -1,0 +1,32 @@
+{
+  "id": "org.cobalto.guia.t",
+  "version": "1.0.0",
+  "name": "Cobalto T",
+  "description": "Guía de canales en vivo",
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "types": [
+    "tv"
+  ],
+  "idPrefixes": [
+    "kitsu:cbl-"
+  ],
+  "catalogs": [
+    {
+      "type": "tv",
+      "id": "cobalto-deportes",
+      "name": "Deportes"
+    },
+    {
+      "type": "tv",
+      "id": "cobalto-canales",
+      "name": "Canales"
+    }
+  ],
+  "behaviorHints": {
+    "configurable": false
+  }
+}

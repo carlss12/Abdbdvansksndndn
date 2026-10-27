@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-dragon-ball-z",
+    "type": "tv",
+    "name": "Dragon Ball Z",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-dragon-ball-z.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-dragon-ball-z.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-dragon-ball-z.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "Canales"
+    ],
+    "description": "Canal en vivo — Dragon Ball Z."
+  }
+}

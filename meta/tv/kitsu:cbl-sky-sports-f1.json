@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-sky-sports-f1",
+    "type": "tv",
+    "name": "Sky Sports F1",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-sky-sports-f1.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-sky-sports-f1.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-sky-sports-f1.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "Canal en vivo — Sky Sports F1."
+  }
+}

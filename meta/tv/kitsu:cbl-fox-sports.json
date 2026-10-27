@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-fox-sports",
+    "type": "tv",
+    "name": "Fox Sports",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-fox-sports.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-fox-sports.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-fox-sports.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "Canal en vivo — Fox Sports."
+  }
+}

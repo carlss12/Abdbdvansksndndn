@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-hbo-pop",
+    "type": "tv",
+    "name": "HBO Pop",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-hbo-pop.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-hbo-pop.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-hbo-pop.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "Cine y series"
+    ],
+    "description": "Canal en vivo — HBO Pop."
+  }
+}

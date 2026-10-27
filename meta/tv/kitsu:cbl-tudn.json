@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-tudn",
+    "type": "tv",
+    "name": "TUDN",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-tudn.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-tudn.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-tudn.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "Fútbol"
+    ],
+    "description": "Canal en vivo — TUDN."
+  }
+}

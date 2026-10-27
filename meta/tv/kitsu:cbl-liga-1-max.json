@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-liga-1-max",
+    "type": "tv",
+    "name": "Liga 1 MAX",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-liga-1-max.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-liga-1-max.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-liga-1-max.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "Fútbol"
+    ],
+    "description": "Canal en vivo — Liga 1 MAX."
+  }
+}

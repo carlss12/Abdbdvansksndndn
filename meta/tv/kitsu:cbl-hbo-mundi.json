@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-hbo-mundi",
+    "type": "tv",
+    "name": "HBO Mundi",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-hbo-mundi.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-hbo-mundi.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-hbo-mundi.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "Cine y series"
+    ],
+    "description": "Canal en vivo — HBO Mundi."
+  }
+}

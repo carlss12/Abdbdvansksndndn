@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-tooncast",
+    "type": "tv",
+    "name": "Tooncast",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-tooncast.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-tooncast.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-tooncast.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "Infantil"
+    ],
+    "description": "Canal en vivo — Tooncast."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-movistar-liga-de-campeones",
+    "type": "tv",
+    "name": "Movistar Liga de Campeones",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-movistar-liga-de-campeones.png?v=6ab42850",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-movistar-liga-de-campeones.png?v=6ab42850",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-movistar-liga-de-campeones.png?v=6ab42850",
+    "posterShape": "landscape",
+    "genres": [
+      "Fútbol"
+    ],
+    "description": "Canal en vivo — Movistar Liga de Campeones."
+  }
+}
