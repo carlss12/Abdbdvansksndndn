@@ -1,0 +1,345 @@
+[
+  {
+    "slug": "espn",
+    "name": "ESPN",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "espn-2",
+    "name": "ESPN 2",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "espn-3",
+    "name": "ESPN 3",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "espn-4",
+    "name": "ESPN 4",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "espn-5",
+    "name": "ESPN 5",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "espn-6",
+    "name": "ESPN 6",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "espn-7",
+    "name": "ESPN 7",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "espn-premium",
+    "name": "ESPN Premium",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "fox-sports",
+    "name": "Fox Sports",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "fox-sports-2",
+    "name": "Fox Sports 2",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "fox-sports-3",
+    "name": "Fox Sports 3",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "fox-sports-premium",
+    "name": "Fox Sports Premium",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "fox",
+    "name": "FOX",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "dsports",
+    "name": "DSports",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "dsports-2",
+    "name": "DSports 2",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "dsports-plus",
+    "name": "DSports Plus",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "dzn",
+    "name": "DZN",
+    "category": "deportes",
+    "genre": "Deportes",
+    "iptv": "DAZN"
+  },
+  {
+    "slug": "tudn",
+    "name": "TUDN",
+    "category": "deportes",
+    "genre": "Fútbol"
+  },
+  {
+    "slug": "liga-1",
+    "name": "Liga 1",
+    "category": "deportes",
+    "genre": "Fútbol"
+  },
+  {
+    "slug": "liga-1-max",
+    "name": "Liga 1 MAX",
+    "category": "deportes",
+    "genre": "Fútbol"
+  },
+  {
+    "slug": "bein-sports-xtra",
+    "name": "beIN Sports Xtra",
+    "category": "deportes",
+    "genre": "Fútbol"
+  },
+  {
+    "slug": "sky-sports-la-liga",
+    "name": "Sky Sports La Liga",
+    "category": "deportes",
+    "genre": "Fútbol"
+  },
+  {
+    "slug": "sky-sports-f1",
+    "name": "Sky Sports F1",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "tyc-sports",
+    "name": "TyC Sports",
+    "category": "deportes",
+    "genre": "Fútbol"
+  },
+  {
+    "slug": "movistar-deportes",
+    "name": "Movistar Deportes",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "movistar-la-liga",
+    "name": "Movistar La Liga",
+    "category": "deportes",
+    "genre": "Fútbol"
+  },
+  {
+    "slug": "movistar-liga-de-campeones",
+    "name": "Movistar Liga de Campeones",
+    "category": "deportes",
+    "genre": "Fútbol"
+  },
+  {
+    "slug": "win-sports",
+    "name": "Win Sports",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "win-sports-plus",
+    "name": "Win Sports+",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "tnt-sports",
+    "name": "TNT Sports",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "tnt-sports-premium",
+    "name": "TNT Sports Premium",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "hbo",
+    "name": "HBO",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "hbo-2",
+    "name": "HBO 2",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "hbo-family",
+    "name": "HBO Family",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "hbo-plus",
+    "name": "HBO Plus",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "hbo-mundi",
+    "name": "HBO Mundi",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "hbo-pop",
+    "name": "HBO Pop",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "hbo-signature",
+    "name": "HBO Signature",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "hbo-xtreme",
+    "name": "HBO Xtreme",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "tnt",
+    "name": "TNT",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "cinemax",
+    "name": "Cinemax",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "space",
+    "name": "Space",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "warner-channel",
+    "name": "Warner Channel",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "cinecanal",
+    "name": "Cinecanal",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "fx",
+    "name": "FX",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "golden",
+    "name": "Golden",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "golden-premier",
+    "name": "Golden Premier",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "tooncast",
+    "name": "Tooncast",
+    "category": "canales",
+    "genre": "Infantil"
+  },
+  {
+    "slug": "adult-swim",
+    "name": "Adult Swim",
+    "category": "canales",
+    "genre": "Canales"
+  },
+  {
+    "slug": "bitme",
+    "name": "bitMe",
+    "category": "canales",
+    "genre": "Canales"
+  },
+  {
+    "slug": "dragon-ball",
+    "name": "Dragon Ball",
+    "category": "canales",
+    "genre": "Canales"
+  },
+  {
+    "slug": "dragon-ball-z",
+    "name": "Dragon Ball Z",
+    "category": "canales",
+    "genre": "Canales"
+  },
+  {
+    "slug": "naruto",
+    "name": "Naruto",
+    "category": "canales",
+    "genre": "Canales"
+  },
+  {
+    "slug": "azteca-uno",
+    "name": "Azteca Uno",
+    "category": "canales",
+    "genre": "TV abierta"
+  },
+  {
+    "slug": "telefe",
+    "name": "Telefe",
+    "category": "canales",
+    "genre": "TV abierta"
+  },
+  {
+    "slug": "el-trece",
+    "name": "El Trece",
+    "category": "canales",
+    "genre": "TV abierta"
+  },
+  {
+    "slug": "nickelodeon",
+    "name": "Nickelodeon",
+    "category": "canales",
+    "genre": "Infantil"
+  }
+]
