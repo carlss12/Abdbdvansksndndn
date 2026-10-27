@@ -4,8 +4,14 @@
  * (ej. ESPN, ESPN MX); si viene de otro addon lo empareja por nombre como antes.
  * Todo corre en el celular, asi que el token del m3u8 se pide desde la misma IP que reproduce.
  */
+// El motor de plugins de Nuvio en la TV no tiene setTimeout/clearTimeout: sin esto todo falla con "setTimeout is not defined".
+// Aqui los temporizadores no hacen nada (el tiempo limite lo pone la app); en el celular se usan los reales.
+if (typeof globalThis.setTimeout !== "function") {
+  globalThis.setTimeout = function () { return 1; };
+  globalThis.clearTimeout = function () {};
+}
 var DEBUG = true; // true: si el canal se reconoce pero no sale nada, aparece una entrada "DIAGNOSTICO". Poner en false al terminar de probar.
-var VERSION = "1.1.0";
+var VERSION = "1.1.1";
 var LABEL = "Lat 2";
 var PREFIX = "cbl-";
 

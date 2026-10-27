@@ -5,11 +5,17 @@
  *   live/core.php?canal=<id> (Referer del sitio) -> stream.php firmado -> pagina con /playlist/N/index.m3u8?token=...
  * Todo corre en el celular, asi que el token se pide desde la misma IP que reproduce.
  */
+// El motor de plugins de Nuvio en la TV no tiene setTimeout/clearTimeout: sin esto todo falla con "setTimeout is not defined".
+// Aqui los temporizadores no hacen nada (el tiempo limite lo pone la app); en el celular se usan los reales.
+if (typeof globalThis.setTimeout !== "function") {
+  globalThis.setTimeout = function () { return 1; };
+  globalThis.clearTimeout = function () {};
+}
 var BASE = "https://www.tvenvivo.org";
 var UA = "Mozilla/5.0 (Linux; Android 13; moto g82 5G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36";
 // true: si el canal se reconoce pero no sale nada, aparece una entrada "DIAGNOSTICO" con los pasos. Poner en false al terminar de probar.
 var DEBUG = true;
-var VERSION = "1.1.0";
+var VERSION = "1.1.1";
 var LABEL = "Lat 3";
 var PREFIX = "cbl-";
 
