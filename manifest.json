@@ -24,6 +24,11 @@
       "type": "tv",
       "id": "cobalto-canales",
       "name": "Canales"
+    },
+    {
+      "type": "tv",
+      "id": "cobalto-agenda",
+      "name": "Agenda"
     }
   ],
   "behaviorHints": {
