@@ -1,12 +1,12 @@
 {
-  "name": "Cipres T + Onix T + Marfil T",
-  "version": "1.3",
+  "name": "Cipres T + Onix T + Marfil T + Berilo T",
+  "version": "1.5",
   "scrapers": [
     {
       "id": "CipresT",
       "name": "Ciprés T",
       "description": "Fuentes adicionales para canales en vivo",
-      "version": "1.2",
+      "version": "1.3",
       "author": "-",
       "supportedTypes": [
         "tv"
@@ -42,6 +42,21 @@
         "tv"
       ],
       "filename": "providers/marfil.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "BeriloT",
+      "name": "Berilo T",
+      "description": "Partidos de la agenda. Se activa al abrir un partido.",
+      "version": "1.0",
+      "author": "-",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/berilo.js",
       "enabled": true,
       "contentLanguage": [
         "es"
