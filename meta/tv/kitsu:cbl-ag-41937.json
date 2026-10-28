@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-41937",
+    "type": "tv",
+    "name": "14:00 Liverpool vs Chelsea",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41937-1400.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41937-1400.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41937-1400.png",
+    "posterShape": "landscape",
+    "genres": [
+      "EFL Cup"
+    ],
+    "description": "EFL Cup · 14:00 (hora de Ciudad de México). 7 opciones de transmisión."
+  }
+}

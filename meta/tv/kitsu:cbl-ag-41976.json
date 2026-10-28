@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-41976",
+    "type": "tv",
+    "name": "18:00 MLB – World Series – Game #5 – Milwaukee Brewers (rival a confirmar) (si es necesario)",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41976-1800.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41976-1800.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41976-1800.png",
+    "posterShape": "landscape",
+    "genres": [
+      "MLB Preseason"
+    ],
+    "description": "MLB Preseason · 18:00 (hora de Ciudad de México). 4 opciones de transmisión."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-41948",
+    "type": "tv",
+    "name": "17:30 Universidad Católica vs Audax Italiano",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41948-1730.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41948-1730.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41948-1730.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Primera División"
+    ],
+    "description": "Primera División · 17:30 (hora de Ciudad de México). 3 opciones de transmisión."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-41938",
+    "type": "tv",
+    "name": "14:30 Porto vs Academico Viseu",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41938-1430.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41938-1430.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41938-1430.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Copa de la Liga"
+    ],
+    "description": "Copa de la Liga · 14:30 (hora de Ciudad de México). 5 opciones de transmisión."
+  }
+}
