@@ -293,5 +293,23 @@
     "name": "Nickelodeon",
     "category": "canales",
     "genre": "Infantil"
+  },
+  {
+    "slug": "canal-5",
+    "name": "Canal 5",
+    "category": "canales",
+    "genre": "TV abierta"
+  },
+  {
+    "slug": "azteca-7",
+    "name": "Azteca 7",
+    "category": "canales",
+    "genre": "TV abierta"
+  },
+  {
+    "slug": "telemundo",
+    "name": "Telemundo",
+    "category": "canales",
+    "genre": "TV abierta"
   }
 ]
