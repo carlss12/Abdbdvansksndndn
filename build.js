@@ -205,7 +205,13 @@ async function main() {
   if (!repoSlug) console.warn('Corriendo local sin GITHUB_REPOSITORY: las URLs de los logos quedan con USUARIO/REPO hasta que corra en GitHub Actions.');
   const CACHE_BUST = process.env.GITHUB_SHA ? process.env.GITHUB_SHA.slice(0, 8) : String(Date.now());
 
-  for (const d of ['meta', 'stream', 'catalog']) fs.rmSync(path.join(OUT_DIR, d), { recursive: true, force: true });
+  // Borra lo generado, menos lo de la agenda (lo maneja agenda.js: catalogo cobalto-agenda y metas kitsu:cbl-ag-*).
+  const esDeAgenda = (f) => f === 'cobalto-agenda.json' || f.startsWith('kitsu:cbl-ag-');
+  for (const d of ['meta/tv', 'catalog/tv']) {
+    const dir = path.join(OUT_DIR, d);
+    if (fs.existsSync(dir)) for (const f of fs.readdirSync(dir)) if (!esDeAgenda(f)) fs.rmSync(path.join(dir, f), { recursive: true, force: true });
+  }
+  for (const d of ['stream']) fs.rmSync(path.join(OUT_DIR, d), { recursive: true, force: true });
   for (const d of ['meta/tv', 'catalog/tv', 'logos']) fs.mkdirSync(path.join(OUT_DIR, d), { recursive: true });
 
   const porCatalogo = {};
@@ -249,7 +255,7 @@ async function main() {
     resources: ['catalog', 'meta', 'stream'],
     types: ['tv'],
     idPrefixes: [PREFIX],
-    catalogs: CATALOGS.map(c => ({ type: 'tv', id: c.id, name: c.name })),
+    catalogs: [...CATALOGS.map(c => ({ type: 'tv', id: c.id, name: c.name })), { type: 'tv', id: 'cobalto-agenda', name: 'Agenda' }],
     behaviorHints: { configurable: false }
   };
   fs.writeFileSync(path.join(OUT_DIR, 'manifest.json'), JSON.stringify(manifest, null, 2));
