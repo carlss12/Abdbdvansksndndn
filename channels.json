@@ -97,7 +97,7 @@
   },
   {
     "slug": "dzn",
-    "name": "DZN",
+    "name": "Dazn",
     "category": "deportes",
     "genre": "Deportes",
     "iptv": "DAZN"
@@ -149,12 +149,6 @@
     "name": "Movistar Deportes",
     "category": "deportes",
     "genre": "Deportes"
-  },
-  {
-    "slug": "movistar-la-liga",
-    "name": "Movistar La Liga",
-    "category": "deportes",
-    "genre": "Fútbol"
   },
   {
     "slug": "movistar-liga-de-campeones",
@@ -211,20 +205,8 @@
     "genre": "Cine y series"
   },
   {
-    "slug": "hbo-mundi",
-    "name": "HBO Mundi",
-    "category": "canales",
-    "genre": "Cine y series"
-  },
-  {
     "slug": "hbo-pop",
     "name": "HBO Pop",
-    "category": "canales",
-    "genre": "Cine y series"
-  },
-  {
-    "slug": "hbo-signature",
-    "name": "HBO Signature",
     "category": "canales",
     "genre": "Cine y series"
   },
@@ -301,38 +283,8 @@
     "genre": "Canales"
   },
   {
-    "slug": "dragon-ball",
-    "name": "Dragon Ball",
-    "category": "canales",
-    "genre": "Canales"
-  },
-  {
-    "slug": "dragon-ball-z",
-    "name": "Dragon Ball Z",
-    "category": "canales",
-    "genre": "Canales"
-  },
-  {
-    "slug": "naruto",
-    "name": "Naruto",
-    "category": "canales",
-    "genre": "Canales"
-  },
-  {
     "slug": "azteca-uno",
     "name": "Azteca Uno",
-    "category": "canales",
-    "genre": "TV abierta"
-  },
-  {
-    "slug": "telefe",
-    "name": "Telefe",
-    "category": "canales",
-    "genre": "TV abierta"
-  },
-  {
-    "slug": "el-trece",
-    "name": "El Trece",
     "category": "canales",
     "genre": "TV abierta"
   },
