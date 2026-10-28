@@ -1,6 +1,6 @@
 {
   "name": "Cipres T + Onix T + Marfil T + Berilo T",
-  "version": "1.5",
+  "version": "1.6",
   "scrapers": [
     {
       "id": "CipresT",
@@ -20,8 +20,8 @@
     {
       "id": "OnixT",
       "name": "Ónix T",
-      "description": "Canales deportivos en vivo. Se activa al abrir un canal de TV.",
-      "version": "1.3",
+      "description": "Canales deportivos y de TV abierta en vivo. Se activa al abrir un canal de TV.",
+      "version": "1.4",
       "author": "-",
       "supportedTypes": [
         "tv"
