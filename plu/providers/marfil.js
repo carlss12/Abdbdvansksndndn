@@ -28,7 +28,6 @@ var CHANNELS = [
   ["sky-sports-la-liga","skysportslaliga","Sky Sports La Liga","sky-sports-la-liga"],
   ["fox-sports-premium","foxsportspremium","Fox Sports Premium","fox-sports-premium"],
   ["tyc-sports","tycsports","TyC Sports","tyc-sports"],
-  ["movistar-la-liga","movistarlaliga","Movistar La Liga","movistar-la-liga"],
   ["movistar-liga-campeones","movistarligadecampeones","Movistar Liga de Campeones","movistar-liga-de-campeones"],
   ["directv-sports","directvsports","Directv Sports","dsports"],
   ["directv-sports-2","directvsports2","Directv Sports 2","dsports-2"],
@@ -54,8 +53,6 @@ var CHANNELS = [
   ["fox-sports-mexico","foxsportsmexico","Fox Sports Mexico","fox-sports"],
   ["fox-sports-2-mexico","foxsports2mexico","Fox Sports 2 Mexico","fox-sports-2"],
   ["fox-sports-3-mexico","foxsports3mexico","Fox Sports 3 Mexico","fox-sports-3"],
-  ["telefe","telefe","Telefe","telefe"],
-  ["el-trece","eltrece","El Trece","el-trece"],
   ["azteca-uno","aztecauno","Azteca Uno","azteca-uno"],
   ["tooncast","tooncast","Tooncast","tooncast"],
   ["tnt","tnt","TNT","tnt"],
@@ -69,7 +66,9 @@ var CHANNELS = [
 ];
 
 // canales del catalogo que son deportivos (llevan etiqueta HD; el resto es SD)
-var SPORTS = ["espn", "espn-2", "espn-3", "espn-4", "espn-5", "espn-6", "espn-7", "espn-premium", "fox-sports", "fox-sports-2", "fox-sports-3", "fox-sports-premium", "dsports", "dsports-2", "dsports-plus", "tudn", "liga-1", "liga-1-max", "bein-sports-xtra", "sky-sports-la-liga", "tyc-sports", "movistar-la-liga", "movistar-liga-de-campeones"];
+var SPORTS = ["espn", "espn-2", "espn-3", "espn-4", "espn-5", "espn-6", "espn-7", "espn-premium", "fox-sports", "fox-sports-2", "fox-sports-3", "fox-sports-premium", "dsports", "dsports-2", "dsports-plus", "tudn", "liga-1", "liga-1-max", "bein-sports-xtra", "sky-sports-la-liga", "tyc-sports", "movistar-liga-de-campeones"];
+// canales cuya senal de Marfil se confirmo como SD
+var FORCE_SD = ["tyc-sports", "movistar-liga-de-campeones", "sky-sports-la-liga", "bein-sports-xtra"];
 function shortName(n) { return String(n).replace(/\bM[eé]xico\b/g, "MX"); }
 
 var MANIFEST_RE = /https?:\/\/[^"'\s<]+?\/playlist\/\d+\/index\.m3u8\?token=[0-9a-f]{40}-[0-9a-f]{32}-\d+-\d+/;
@@ -178,7 +177,7 @@ async function getStreams(tmdbId, type, season, episode) {
   await new Promise(function (done) {
     var pending = list.length * 3, grace = null;
     list.forEach(function (ch, ci) {
-      var quality = SPORTS.indexOf(ch[3]) >= 0 ? "HD" : "SD";
+      var quality = SPORTS.indexOf(ch[3]) >= 0 && FORCE_SD.indexOf(ch[3]) < 0 ? "HD" : "SD";
       ["1", "2", "3"].forEach(function (s) {
         viaSource(ch[1], s).then(function (playlists) {
           playlists.forEach(function (x) {
