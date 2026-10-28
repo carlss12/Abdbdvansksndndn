@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-azteca-7",
+    "type": "tv",
+    "name": "Azteca 7",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-azteca-7.png?v=63a11a35",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-azteca-7.png?v=63a11a35",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-azteca-7.png?v=63a11a35",
+    "posterShape": "landscape",
+    "genres": [
+      "TV abierta"
+    ],
+    "description": "Canal en vivo — Azteca 7."
+  }
+}
