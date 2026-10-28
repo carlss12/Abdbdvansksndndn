@@ -6,7 +6,7 @@
       "id": "CipresT",
       "name": "Ciprés T",
       "description": "Fuentes adicionales para canales en vivo",
-      "version": "1.1",
+      "version": "1.2",
       "author": "-",
       "supportedTypes": [
         "tv"
@@ -36,7 +36,7 @@
       "id": "MarfilT",
       "name": "Marfil T",
       "description": "Canales de TV en vivo. Se activa al abrir un canal de TV.",
-      "version": "1.4",
+      "version": "1.5",
       "author": "-",
       "supportedTypes": [
         "tv"
