@@ -2,14 +2,14 @@
   "meta": {
     "id": "kitsu:cbl-dzn",
     "type": "tv",
-    "name": "DZN",
-    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-dzn.png?v=6ab42850",
-    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-dzn.png?v=6ab42850",
-    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-dzn.png?v=6ab42850",
+    "name": "Dazn",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-dzn.png?v=80251b36",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-dzn.png?v=80251b36",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-dzn.png?v=80251b36",
     "posterShape": "landscape",
     "genres": [
       "Deportes"
     ],
-    "description": "Canal en vivo — DZN."
+    "description": "Canal en vivo — Dazn."
   }
 }
