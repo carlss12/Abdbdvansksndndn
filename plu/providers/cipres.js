@@ -4,7 +4,7 @@
  * Si una fuente deja de funcionar, se cambia la URL en CHANNELS (o se agrega otra a la lista del canal).
  */
 var DEBUG = true; // true: si el canal se reconoce pero no sale nada, aparece una entrada "DIAGNOSTICO". Poner en false al terminar de probar.
-var VERSION = "1.4.0";
+var VERSION = "1.5.0";
 var LABEL = "Lat 1";
 var PREFIX = "cbl-";
 
@@ -311,13 +311,44 @@ function slugFromId(id) {
   return i < 0 ? "" : s.slice(i + PREFIX.length);
 }
 
-async function getStreams(tmdbId, type, season, episode) {
-  if (type !== "tv" || !tmdbId) return [];
-  var slug = slugFromId(tmdbId);
-  var grupos = slug && CHANNELS[slug];
-  if (!grupos) return []; // no es un canal de este plugin: no estorbar
-  var results = [], seen = {};
-  grupos.forEach(function (g) {
+// ---------- partidos de la agenda (ids "cbl-ag-<id>") ----------
+// Toma los canales de cada opcion del partido (el "stream=" del reproductor de futbol libre) y, si Cipres tiene ese canal, da sus fuentes.
+var AGENDA_URL = "https://api.wqxag.com/diaries.json";
+// id del canal en futbol libre -> canal de arriba, cuando el nombre no es igual (los que coinciden sin guiones, como espn4 = espn-4, no hacen falta)
+var AGENDA_ALIAS = {
+  espnmx: "espn", espn2mx: "espn-2", espn3mx: "espn-3", espn4mx: "espn-4",
+  foxsportsmx: "fox-sports", foxsports2mx: "fox-sports-2", foxsports3mx: "fox-sports-3",
+  tudnmx: "tudn", tudn_mx: "tudn", winsports: "win-sports", winsports2: "win-sports-plus", winsportsplus: "win-sports-plus",
+  directvsports: "dsports", directvsports2: "dsports-2", directvsportsplus: "dsports-plus",
+  dsportsplus: "dsports-plus", liga1max: "liga-1-max", skysportsf1: "sky-sports-f1"
+};
+var B64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+function b64decode(t) {
+  t = String(t || "").replace(/-/g, "+").replace(/_/g, "/").replace(/[^A-Za-z0-9+\/]/g, "");
+  var out = "", bits = 0, acc = 0;
+  for (var i = 0; i < t.length; i++) {
+    acc = (acc << 6) | B64.indexOf(t.charAt(i));
+    bits += 6;
+    if (bits >= 8) { bits -= 8; out += String.fromCharCode((acc >> bits) & 255); acc &= (1 << bits) - 1; }
+  }
+  return out;
+}
+function agendaStreamId(iframe) {
+  var m = /[?&]r=([^&]+)/.exec(String(iframe || ""));
+  if (!m) return "";
+  var q = m[1];
+  try { q = decodeURIComponent(q); } catch (e) { /* ya viene limpio */ }
+  var u = b64decode(q), k = /[?&]stream=([^&#]+)/.exec(u);
+  return k && !/disney/i.test(u) ? k[1].toLowerCase() : "";
+}
+function slugForStreamId(sid) {
+  if (AGENDA_ALIAS[sid] && CHANNELS[AGENDA_ALIAS[sid]]) return AGENDA_ALIAS[sid];
+  var flat = sid.replace(/[^a-z0-9]/g, "");
+  for (var slug in CHANNELS) if (slug.replace(/[^a-z0-9]/g, "") === flat) return slug;
+  return "";
+}
+function sourcesFor(slug, seen, results) {
+  (CHANNELS[slug] || []).forEach(function (g) {
     g[1].forEach(function (item, n) {
       var url = typeof item === "string" ? item : item[0];
       var quality = typeof item === "string" ? "EN VIVO" : item[1];
@@ -326,6 +357,34 @@ async function getStreams(tmdbId, type, season, episode) {
       results.push({ name: LABEL, title: g[0] + " · Opción " + (n + 1), url: url, quality: quality, headers: {} });
     });
   });
+}
+async function agendaStreams(diaryId) {
+  var game = null;
+  try {
+    var r = await fetch(AGENDA_URL, { headers: { "Accept": "application/json" } });
+    var data = r.ok ? JSON.parse(await r.text()).data || [] : [];
+    for (var i = 0; i < data.length; i++) if (String(data[i].id) === diaryId) { game = data[i]; break; }
+  } catch (e) { /* sin agenda: sin fuentes */ }
+  if (!game) return [];
+  var embeds = (game.attributes.embeds && game.attributes.embeds.data) || [];
+  var slugs = [], results = [], seen = {};
+  embeds.forEach(function (e) {
+    var sid = agendaStreamId(e.attributes.embed_iframe), slug = sid && slugForStreamId(sid);
+    if (slug && slugs.indexOf(slug) < 0) slugs.push(slug);
+  });
+  slugs.forEach(function (slug) { sourcesFor(slug, seen, results); });
+  return results; // si Cipres no tiene ninguno de esos canales, no estorba (sin diagnostico)
+}
+
+async function getStreams(tmdbId, type, season, episode) {
+  if (type !== "tv" || !tmdbId) return [];
+  var slug = slugFromId(tmdbId);
+  var ag = /^ag-(\d+)$/.exec(slug);
+  if (ag) return agendaStreams(ag[1]);
+  var grupos = slug && CHANNELS[slug];
+  if (!grupos) return []; // no es un canal de este plugin: no estorbar
+  var results = [], seen = {};
+  sourcesFor(slug, seen, results);
   if (results.length) return results;
   return DEBUG ? [{ name: LABEL, title: "", url: "https://example.com/", quality: "🛠 DIAGNOSTICO (no reproducir)\nsin fuentes para " + slug + " (v" + VERSION + ")", headers: {} }] : [];
 }
