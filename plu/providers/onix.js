@@ -1,5 +1,5 @@
 /**
- * Ónix - canales deportivos en vivo
+ * Ónix - canales deportivos y de TV abierta en vivo
  * Se activa al abrir un canal de TV. Si el id es del catálogo ("cbl-<canal>") devuelve todas las variantes del canal
  * (ej. ESPN, ESPN MX); si viene de otro addon lo empareja por nombre como antes.
  * Todo corre en el celular, asi que el token del m3u8 se pide desde la misma IP que reproduce.
@@ -11,7 +11,7 @@ if (typeof globalThis.setTimeout !== "function") {
   globalThis.clearTimeout = function () {};
 }
 var DEBUG = true; // true: si el canal se reconoce pero no sale nada, aparece una entrada "DIAGNOSTICO". Poner en false al terminar de probar.
-var VERSION = "1.1.1";
+var VERSION = "1.1.4";
 var LABEL = "Lat 2";
 var PREFIX = "cbl-";
 
@@ -20,6 +20,12 @@ var CHANNELS = [
   ["ESPN", "espn", "espn"],
   ["ESPN 2", "espn2", "espn-2"],
   ["ESPN 3", "espn3", "espn-3"],
+  ["ESPN 4", "espn4", "espn-4"],
+  ["Canal 5", "canal5", "canal-5"],
+  ["Azteca 7", "azteca7", "azteca-7"],
+  ["Telemundo", "telemundo", "telemundo"],
+  ["Win Sports +", "winsports2", "win-sports-plus"],
+  ["DAZN 1", "dazn1", "dzn"],
   ["Fox Sports", "foxsports", "fox-sports"],
   ["Fox Sports 2", "foxsports2", "fox-sports-2"],
   ["Fox Sports 3", "foxsports3", "fox-sports-3"],
@@ -103,11 +109,19 @@ async function get(url, headers, ms) {
 }
 function unslash(s) { return String(s).replace(/\\\//g, "/"); }
 
-async function viaTvf90(id) {
-  var r = await get("https://tvf90.com/5.php?stream=" + encodeURIComponent(id), { "Referer": "https://tvf90.com/" }, 8000);
+// Primero la pagina 5 (la de siempre); si no da enlace, prueba las paginas 1, 2 y 3 que usa la agenda de futbol libre (ej. canal5 esta en 3.php).
+async function tvf90Page(page, id) {
+  var r = await get("https://tvf90.com/" + page + ".php?stream=" + encodeURIComponent(id), { "Referer": "https://tvf90.com/" }, 8000);
   var m = r.ok && /playbackURL\s*=\s*"([^"]+)"/.exec(r.text);
-  trace("tvf90 " + r.status + (m ? " ok" : " sin url"));
+  trace("tvf90 " + page + ".php " + r.status + (m ? " ok" : " sin url"));
   return m ? unslash(m[1]) : "";
+}
+async function viaTvf90(id) {
+  var url = await tvf90Page("5", id);
+  if (url) return url;
+  var rest = await Promise.all(["1", "2", "3"].map(function (pg) { return tvf90Page(pg, id).catch(function () { return ""; }); }));
+  for (var i = 0; i < rest.length; i++) if (rest[i]) return rest[i];
+  return "";
 }
 async function viaLa18(id) {
   var r = await get("https://la18hd.su/vivo/canal.php?stream=" + encodeURIComponent(id), { "Sec-Fetch-Dest": "iframe" }, 8000);
