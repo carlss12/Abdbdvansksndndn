@@ -2,8 +2,8 @@ name: Actualizar agenda
 
 on:
   schedule:
-    # 05:00, 12:00 y 18:00 hora de Mexico (UTC-6). Las opciones de cada partido las pide el plugin en vivo, asi que no hace falta mas seguido.
-    - cron: '0 11,18,0 * * *'
+    # cada 30 minutos (GitHub puede retrasarlo unos minutos): asi los partidos terminados salen del catalogo
+    - cron: '*/30 * * * *'
   workflow_dispatch: {}
 
 permissions:
