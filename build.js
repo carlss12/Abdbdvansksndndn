@@ -14,7 +14,8 @@ const ADDON_ID = 'org.cobalto.guia.t';
 const ADDON_NAME = 'Cobalto T';
 const CATALOGS = [
   { key: 'deportes', id: 'cobalto-deportes', name: 'Deportes' },
-  { key: 'canales', id: 'cobalto-canales', name: 'Canales' }
+  { key: 'canales', id: 'cobalto-canales', name: 'Canales' },
+  { key: 'caricaturas', id: 'cobalto-caricaturas', name: 'Caricaturas' }
 ];
 
 const CANVAS_W = 800;
@@ -152,7 +153,7 @@ async function asegurarLogo(ch, id) {
   const outPath = path.join(OUT_DIR, rel);
   if (fs.existsSync(outPath)) return rel; // ya existe: no se vuelve a generar
   if (process.env.SKIP_IMAGES) return null;
-  const url = await buscarLogoIptv(ch.iptv || ch.name);
+  const url = ch.logoUrl || await buscarLogoIptv(ch.iptv || ch.name); // logoUrl: logo directo opcional en channels.json
   if (url) {
     try {
       await tarjetaDeLogo(url, outPath);
