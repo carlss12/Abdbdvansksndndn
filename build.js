@@ -11,7 +11,7 @@ const OUT_DIR = __dirname;
 const PREFIX = 'kitsu:cbl-';
 const FILE_PREFIX = 'cbl-';
 const ADDON_ID = 'org.cobalto.guia.t';
-const ADDON_NAME = 'Cobalto T';
+const ADDON_NAME = 'Suki';
 const CATALOGS = [
   { key: 'deportes', id: 'cobalto-deportes', name: 'Deportes' },
   { key: 'canales', id: 'cobalto-canales', name: 'Canales' },
