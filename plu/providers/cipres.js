@@ -4,7 +4,7 @@
  * Si una fuente deja de funcionar, se cambia la URL en CHANNELS (o se agrega otra a la lista del canal).
  */
 var DEBUG = true; // true: si el canal se reconoce pero no sale nada, aparece una entrada "DIAGNOSTICO". Poner en false al terminar de probar.
-var VERSION = "1.6.0";
+var VERSION = "1.7.0";
 var LABEL = "Lat 1";
 var PREFIX = "cbl-";
 
@@ -299,14 +299,98 @@ var CHANNELS = {
     ["https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8","FHD"],
     ["http://181.78.79.131:8000/play/a0qm","FHD"]
   ]]],
+  "simpson-24-7": [["Simpson 24/7", [
+    ["https://live20.bozztv.com/akamaissh101/ssh101/simptestnews/chunks.m3u8","EN VIVO"]
+  ]]],
+  "south-park": [["South Park", [
+    ["https://jmp2.uk/plu-609ae5cd48d3200007b0a98e.m3u8","HD"]
+  ]]],
+  "hey-arnold": [["Hey Arnold!", [
+    ["https://jmp2.uk/plu-66c79221b1a34600087e264d.m3u8","HD"]
+  ]]],
+  "avatar-aang": [["Avatar: La Leyenda de Aang", [
+    ["https://jmp2.uk/plu-6759ee82bd523200083b4f0f.m3u8","HD"]
+  ]]],
+  "naruto": [["Naruto", [
+    ["https://jmp2.uk/plu-5ee92e72fb286e0007285fec.m3u8","HD"]
+  ]]],
+  "naruto-shippuden": [["Naruto Shippuden", [
+    ["https://jmp2.uk/plu-64c92fea3c3344000869e8a9.m3u8","HD"]
+  ]]],
+  "one-piece": [["One Piece", [
+    ["https://jmp2.uk/plu-5ff4b9ccf938f8000779eb99.m3u8","HD"]
+  ]]],
+  "inuyasha": [["Inuyasha", [
+    ["https://jmp2.uk/plu-66b26665d512590008c507b7.m3u8","HD"]
+  ]]],
+  "hunter-x-hunter": [["Hunter x Hunter", [
+    ["https://jmp2.uk/plu-65d916a2f7f0af0008b6540d.m3u8","HD"]
+  ]]],
+  "jojo": [["JoJo's Bizarre Adventure", [
+    ["https://jmp2.uk/plu-66c790f780a0af0008583aa4.m3u8","HD"]
+  ]]],
+  "death-note": [["Death Note", [
+    ["https://jmp2.uk/plu-626c2ed933a2890007e91422.m3u8","HD"]
+  ]]],
+  "south-park-cartman": [["South Park: Colección Cartman", [
+    ["https://jmp2.uk/plu-65df731cec9fda0008b7aa8d.m3u8","HD"]
+  ]]],
+  "south-park-stan": [["South Park: Colección Stan", [
+    ["https://jmp2.uk/plu-65df72db18036500081a8292.m3u8","HD"]
+  ]]],
+  "captain-tsubasa": [["Captain Tsubasa", [
+    ["https://jmp2.uk/plu-64666345f3f5b1000882bfb4.m3u8","HD"]
+  ]]],
+  "comedy-central": [["Comedy Central Pluto TV", [
+    ["https://jmp2.uk/plu-5ffcc21a432945000762d06b.m3u8","HD"]
+  ]]],
+  "daria": [["Daria", [
+    ["https://jmp2.uk/plu-62d0895ebe7a970008785244.m3u8","HD"]
+  ]]],
+  "hechiceras": [["Hechiceras", [
+    ["https://jmp2.uk/plu-67f95fa76b11614ab0caaef3.m3u8","HD"]
+  ]]],
+  "tortugas-ninja": [["Las Tortugas Ninja", [
+    ["https://jmp2.uk/plu-63dd5d7a4e83e700088fbca8.m3u8","HD"]
+  ]]],
+  "padrinos-magicos": [["Los Padrinos Mágicos", [
+    ["https://jmp2.uk/plu-6322099c822bbc00074857db.m3u8","HD"]
+  ]]],
+  "los-pitufos": [["Los Pitufos", [
+    ["https://jmp2.uk/plu-68a3a97fd8f7693ae3f8575f.m3u8","HD"]
+  ]]],
+  "nickelodeon-clasico": [["Nickelodeon Clásico", [
+    ["https://jmp2.uk/plu-6824cda00101510f9eeaa011.m3u8","HD"]
+  ]]],
+  "nickelodeon-icarly": [["Nickelodeon iCarly", [
+    ["https://jmp2.uk/plu-620ff0a01f9e8700076c6f9d.m3u8","HD"]
+  ]]],
+  "nickelodeon-teen": [["Nickelodeon Teen", [
+    ["https://jmp2.uk/plu-5fab09a8749b1a00077d35d2.m3u8","HD"]
+  ]]],
+  "nickelodeon-toons": [["Nickelodeon Toons", [
+    ["https://jmp2.uk/plu-645952687cb4b100084ed52e.m3u8","HD"]
+  ]]],
+  "rugrats": [["Rugrats", [
+    ["https://jmp2.uk/plu-5ea7215005d66d0007e8128a.m3u8","HD"]
+  ]]],
+  "pokemon": [["Pokémon", [
+    ["https://jmp2.uk/plu-6870072ca9d5c45c3e9466f1.m3u8","HD"]
+  ]]],
   "bob-esponja": [["Bob Esponja Pantalones Cuadrados", [
     ["https://jmp2.uk/plu-6254598f5083f800076d8563.m3u8","HD"]
   ]]],
   "boruto": [["Boruto: Naruto Next Generations", [
     ["https://jmp2.uk/plu-656f37f257fe4a000884dfee.m3u8","HD"]
   ]]],
-  "avatar-aang": [["Avatar: La Leyenda de Aang", [
-    ["https://jmp2.uk/plu-6759ee82bd523200083b4f0f.m3u8","HD"]
+  "familia-del-barrio": [["La Familia del Barrio", [
+    ["https://jmp2.uk/plu-62d08af527ce19000731eaa0.m3u8","HD"]
+  ]]],
+  "azteca-deportes-premium": [["Azteca Deportes Premium", [
+    ["https://jmp2.uk/plu-65cf60d166eec80008724e6f.m3u8","HD"]
+  ]]],
+  "azteca-deportes-premium": [["Azteca Deportes Premium", [
+    ["https://jmp2.uk/plu-65cf60d166eec80008724e6f.m3u8","HD"]
   ]]],
   "dzn": [["Dazn", [
     "http://cloudtvserviceplatinum.site:8080/live/Rene2024castaneda/Castaneda24rene/584993.ts",
