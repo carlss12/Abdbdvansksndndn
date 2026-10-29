@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-boruto",
+    "type": "tv",
+    "name": "Boruto: Naruto Next Generations",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-boruto.png?v=626558c0",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-boruto.png?v=626558c0",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-boruto.png?v=626558c0",
+    "posterShape": "landscape",
+    "genres": [
+      "Caricaturas"
+    ],
+    "description": "Canal en vivo — Boruto: Naruto Next Generations."
+  }
+}

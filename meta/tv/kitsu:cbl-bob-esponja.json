@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-bob-esponja",
+    "type": "tv",
+    "name": "Bob Esponja Pantalones Cuadrados",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-bob-esponja.png?v=626558c0",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-bob-esponja.png?v=626558c0",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-bob-esponja.png?v=626558c0",
+    "posterShape": "landscape",
+    "genres": [
+      "Caricaturas"
+    ],
+    "description": "Canal en vivo — Bob Esponja Pantalones Cuadrados."
+  }
+}
