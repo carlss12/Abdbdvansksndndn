@@ -14,6 +14,9 @@ const PREFIX = 'kitsu:cbl-ag-';
 const FUENTE_UTC = -5;   // zona de diary_hour
 const LOCAL_UTC = -6;    // zona del usuario (Ciudad de Mexico, sin horario de verano)
 const MAX_PARTIDOS = 150;
+// La pagina de Futbol Libre quita los partidos ya terminados: se ocultan pasadas DURACION_H horas del inicio
+// (y los que ya empezaron y no tienen ninguna opcion de transmision).
+const DURACION_H = 3;
 
 const CANVAS_W = 800, CANVAS_H = 450;
 const DARK_BG = 0x161616FF;
@@ -86,7 +89,9 @@ async function main() {
 
   const partidos = (json.data || []).map(parsear).filter(Boolean)
     .filter(p => p.total === 0 || p.opciones > 0)                 // aun sin opciones: se queda (las agregan despues); solo Disney+: fuera
-    .filter(p => p.dia >= hoyLocal)                               // hoy (dia completo, como la pagina) y proximos dias
+    .filter(p => p.dia >= hoyLocal)                               // hoy y proximos dias
+    .filter(p => ahora < p.inicioUtc + DURACION_H * 3600e3)      // ya termino: fuera
+    .filter(p => !(p.total === 0 && ahora > p.inicioUtc))        // ya empezo y sigue sin opciones: fuera
     .sort((a, b) => a.inicioUtc - b.inicioUtc || a.id - b.id)
     .slice(0, MAX_PARTIDOS);
 
