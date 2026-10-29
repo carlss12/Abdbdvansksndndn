@@ -1,16 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-41978",
-      "type": "tv",
-      "name": "19:30 NBA – Dallas Mavericks vs. Oklahoma City Thunder",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41978-1930.png",
-      "posterShape": "landscape",
-      "genres": [
-        "NBA"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-41964",
       "type": "tv",
       "name": "21:00 América vs Tijuana",
