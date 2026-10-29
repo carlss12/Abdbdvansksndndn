@@ -311,5 +311,26 @@
     "name": "Telemundo",
     "category": "canales",
     "genre": "TV abierta"
+  },
+  {
+    "slug": "bob-esponja",
+    "name": "Bob Esponja Pantalones Cuadrados",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/6254598f5083f800076d8563/colorLogoPNG_1792528902585.png"
+  },
+  {
+    "slug": "boruto",
+    "name": "Boruto: Naruto Next Generations",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/656f37f257fe4a000884dfee/colorLogoPNG.png"
+  },
+  {
+    "slug": "avatar-aang",
+    "name": "Avatar: La Leyenda de Aang",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/6759ee82bd523200083b4f0f/colorLogoPNG.png"
   }
 ]
