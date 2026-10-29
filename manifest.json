@@ -1,7 +1,7 @@
 {
   "id": "org.cobalto.guia.t",
-  "version": "1.1.0",
-  "name": "Cobalto T",
+  "version": "1.1.1",
+  "name": "suki",
   "description": "Guía de canales en vivo",
   "resources": [
     "catalog",
@@ -17,22 +17,22 @@
   "catalogs": [
     {
       "type": "tv",
-      "id": "cobalto-deportes",
+      "id": "suki-deportes",
       "name": "Deportes"
     },
     {
       "type": "tv",
-      "id": "cobalto-canales",
+      "id": "suki-canales",
       "name": "Canales"
     },
     {
       "type": "tv",
-      "id": "cobalto-caricaturas",
+      "id": "suki-caricaturas",
       "name": "Caricaturas"
     },
     {
       "type": "tv",
-      "id": "cobalto-agenda",
+      "id": "suki-agenda",
       "name": "Agenda"
     }
   ],
