@@ -27,6 +27,11 @@
     },
     {
       "type": "tv",
+      "id": "cobalto-caricaturas",
+      "name": "Caricaturas"
+    },
+    {
+      "type": "tv",
       "id": "cobalto-agenda",
       "name": "Agenda"
     }
