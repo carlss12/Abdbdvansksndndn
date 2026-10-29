@@ -1,46 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42002",
-      "type": "tv",
-      "name": "13:45 Fiorentina vs Atalanta",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42002-1345.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Serie A"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42003",
-      "type": "tv",
-      "name": "13:45 Everton vs Newcastle United",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42003-1345.png",
-      "posterShape": "landscape",
-      "genres": [
-        "EFL Cup"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42014",
-      "type": "tv",
-      "name": "14:00 Køge vs Barcelona",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42014-1400.png",
-      "posterShape": "landscape",
-      "genres": [
-        "UEFA Women's Champions League"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42015",
-      "type": "tv",
-      "name": "14:00 Manchester City vs PSG",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42015-1400.png",
-      "posterShape": "landscape",
-      "genres": [
-        "UEFA Women's Champions League"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-41999",
       "type": "tv",
       "name": "14:30 Sporting Cristal vs Alianza Lima",
