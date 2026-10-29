@@ -250,7 +250,7 @@ async function main() {
 
   const manifest = {
     id: ADDON_ID,
-    version: '1.0.0',
+    version: '1.1.0', // subir al agregar catalogos: Nuvio puede no refrescar el manifest si la version no cambia
     name: ADDON_NAME,
     description: 'Guía de canales en vivo',
     resources: ['catalog', 'meta', 'stream'],
