@@ -1,26 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42004",
-      "type": "tv",
-      "name": "12:45 Sporting Braga vs Famalicão",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42004-1245.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa de la Liga"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42023",
-      "type": "tv",
-      "name": "12:45 Baltika vs Zenit",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42023-1245.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa de Rusia"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42002",
       "type": "tv",
       "name": "13:45 Fiorentina vs Atalanta",
@@ -108,16 +88,6 @@
       "posterShape": "landscape",
       "genres": [
         "Primera A"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42027",
-      "type": "tv",
-      "name": "17:30 Wanderers Durazno vs Danubio",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42027-1730.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa Uruguay"
       ]
     },
     {
