@@ -1,26 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42016",
-      "type": "tv",
-      "name": "09:00 China PR vs Francia",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42016-0900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa Mundial Femenina Sub-17 de la FIFA"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42017",
-      "type": "tv",
-      "name": "09:00 Nigeria vs México",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42017-0900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa Mundial Femenina Sub-17 de la FIFA"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42022",
       "type": "tv",
       "name": "10:30 CSKA Moskva vs Lokomotiv Moskva",
@@ -75,16 +55,6 @@
       "type": "tv",
       "name": "12:00 España vs Estados Unidos",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42018-1200.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa Mundial Femenina Sub-17 de la FIFA"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42019",
-      "type": "tv",
-      "name": "12:00 Japón vs Kenia",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42019-1200.png",
       "posterShape": "landscape",
       "genres": [
         "Copa Mundial Femenina Sub-17 de la FIFA"
