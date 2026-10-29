@@ -1,96 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-41974",
-      "type": "tv",
-      "name": "12:20 Messi Cup – Cuartos de Final – Equipos a confirmar",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41974-1220.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Argentina"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-41931",
-      "type": "tv",
-      "name": "13:45 Genoa vs Juventus",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41931-1345.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Serie A"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-41937",
-      "type": "tv",
-      "name": "14:00 Liverpool vs Chelsea",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41937-1400.png",
-      "posterShape": "landscape",
-      "genres": [
-        "EFL Cup"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-41941",
-      "type": "tv",
-      "name": "14:00 Navalcarnero vs Real Betis",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41941-1400.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa del Rey"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-41942",
-      "type": "tv",
-      "name": "14:00 Tavernes vs Valencia",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41942-1400.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa del Rey"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-41956",
-      "type": "tv",
-      "name": "14:00 OL Lyonnes vs Inter Milano",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41956-1400.png",
-      "posterShape": "landscape",
-      "genres": [
-        "UEFA Women's Champions League"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-41957",
-      "type": "tv",
-      "name": "14:00 Arsenal vs SL Benfica",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41957-1400.png",
-      "posterShape": "landscape",
-      "genres": [
-        "UEFA Women's Champions League"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-41926",
-      "type": "tv",
-      "name": "14:30 Alianza Atlético vs Deportivo Garcilaso",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41926-1430.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Liga 1"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-41938",
-      "type": "tv",
-      "name": "14:30 Porto vs Academico Viseu",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41938-1430.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa de la Liga"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-41943",
       "type": "tv",
       "name": "16:00 Santos vs Palmeiras",
@@ -131,16 +41,6 @@
       ]
     },
     {
-      "id": "kitsu:cbl-ag-41960",
-      "type": "tv",
-      "name": "17:00 Violette AC vs Portmore United",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41960-1700.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Campeonato de Clubes del Caribe"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-41975",
       "type": "tv",
       "name": "17:00 NBA – Indiana Pacers vs. Philadelphia 76ers",
@@ -158,6 +58,16 @@
       "posterShape": "landscape",
       "genres": [
         "Primera División"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-41997",
+      "type": "tv",
+      "name": "17:30 Inter Miami vs FC Cincinnati",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41997-1730.png",
+      "posterShape": "landscape",
+      "genres": [
+        "MLS"
       ]
     },
     {
@@ -183,11 +93,11 @@
     {
       "id": "kitsu:cbl-ag-41976",
       "type": "tv",
-      "name": "18:00 MLB – World Series – Game #5 – Milwaukee Brewers (rival a confirmar) (si es necesario)",
+      "name": "18:00 Tampa Bay Rays vs Milwaukee Brewers",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41976-1800.png",
       "posterShape": "landscape",
       "genres": [
-        "MLB Preseason"
+        "MLB"
       ]
     },
     {
@@ -221,16 +131,6 @@
       ]
     },
     {
-      "id": "kitsu:cbl-ag-41958",
-      "type": "tv",
-      "name": "18:30 Deportivo Saprissa vs Firpo",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41958-1830.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa Centroamericana de CONCACAF"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-41977",
       "type": "tv",
       "name": "19:00 Golf – Asia Pacific Amateur Championship – Primera Ronda",
@@ -258,16 +158,6 @@
       "posterShape": "landscape",
       "genres": [
         "NBA"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-41959",
-      "type": "tv",
-      "name": "21:00 Olimpia vs Cartaginés",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41959-2100.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa Centroamericana de CONCACAF"
       ]
     },
     {
