@@ -1,26 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-41999",
-      "type": "tv",
-      "name": "14:30 Sporting Cristal vs Alianza Lima",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41999-1430.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Liga 1"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42005",
-      "type": "tv",
-      "name": "14:45 Benfica vs Gil Vicente",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42005-1445.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa de la Liga"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42006",
       "type": "tv",
       "name": "16:30 Atlético Mineiro vs Cruzeiro",
