@@ -181,6 +181,13 @@
     "genre": "Deportes"
   },
   {
+    "slug": "azteca-deportes-premium",
+    "name": "Azteca Deportes Premium",
+    "category": "deportes",
+    "genre": "Deportes",
+    "logoUrl": "https://images.pluto.tv/channels/65cf60d166eec80008724e6f/colorLogoPNG.png"
+  },
+  {
     "slug": "hbo",
     "name": "HBO",
     "category": "canales",
@@ -313,6 +320,188 @@
     "genre": "TV abierta"
   },
   {
+    "slug": "simpson-24-7",
+    "name": "Simpson 24/7",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://w7.pngwing.com/pngs/771/352/png-transparent-the-simpsons-characters-illustration-homer-simpson-marge-simpson-maggie-simpson-lisa-simpson-bart-simpson-the-simpsons-text-cartoon-fictional-character.png"
+  },
+  {
+    "slug": "south-park",
+    "name": "South Park",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/609ae5cd48d3200007b0a98e/colorLogoPNG_1764595225705.png"
+  },
+  {
+    "slug": "hey-arnold",
+    "name": "Hey Arnold!",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/66c79221b1a34600087e264d/colorLogoPNG.png"
+  },
+  {
+    "slug": "avatar-aang",
+    "name": "Avatar: La Leyenda de Aang",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/6759ee82bd523200083b4f0f/colorLogoPNG.png"
+  },
+  {
+    "slug": "naruto",
+    "name": "Naruto",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/5ee92e72fb286e0007285fec/colorLogoPNG.png"
+  },
+  {
+    "slug": "naruto-shippuden",
+    "name": "Naruto Shippuden",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/64c92fea3c3344000869e8a9/colorLogoPNG.png"
+  },
+  {
+    "slug": "one-piece",
+    "name": "One Piece",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/5ff4b9ccf938f8000779eb99/colorLogoPNG-1663941540755.png"
+  },
+  {
+    "slug": "inuyasha",
+    "name": "Inuyasha",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/66b26665d512590008c507b7/colorLogoPNG.png"
+  },
+  {
+    "slug": "hunter-x-hunter",
+    "name": "Hunter x Hunter",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/65d916a2f7f0af0008b6540d/colorLogoPNG.png"
+  },
+  {
+    "slug": "jojo",
+    "name": "JoJo's Bizarre Adventure",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/66c790f780a0af0008583aa4/colorLogoPNG.png"
+  },
+  {
+    "slug": "death-note",
+    "name": "Death Note",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/626c2ed933a2890007e91422/colorLogoPNG.png"
+  },
+  {
+    "slug": "south-park-cartman",
+    "name": "South Park: Colección Cartman",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/65df731cec9fda0008b7aa8d/colorLogoPNG.png"
+  },
+  {
+    "slug": "south-park-stan",
+    "name": "South Park: Colección Stan",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/65df72db18036500081a8292/colorLogoPNG.png"
+  },
+  {
+    "slug": "captain-tsubasa",
+    "name": "Captain Tsubasa",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/64666345f3f5b1000882bfb4/colorLogoPNG.png"
+  },
+  {
+    "slug": "comedy-central",
+    "name": "Comedy Central Pluto TV",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/5ffcc21a432945000762d06b/colorLogoPNG_1762352083476.png"
+  },
+  {
+    "slug": "daria",
+    "name": "Daria",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/62d0895ebe7a970008785244/colorLogoPNG.png"
+  },
+  {
+    "slug": "hechiceras",
+    "name": "Hechiceras",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/67f95fa76b11614ab0caaef3/colorLogoPNG_1747414259619.png"
+  },
+  {
+    "slug": "tortugas-ninja",
+    "name": "Las Tortugas Ninja",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/63dd5d7a4e83e700088fbca8/colorLogoPNG_1768926025035.png"
+  },
+  {
+    "slug": "padrinos-magicos",
+    "name": "Los Padrinos Mágicos",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/6322099c822bbc00074857db/colorLogoPNG_1767810452010.png"
+  },
+  {
+    "slug": "los-pitufos",
+    "name": "Los Pitufos",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/68a3a97fd8f7693ae3f8575f/colorLogoPNG_1760386874134.png"
+  },
+  {
+    "slug": "nickelodeon-clasico",
+    "name": "Nickelodeon Clásico",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/6824cda00101510f9eeaa011/colorLogoPNG_1750110888810.png"
+  },
+  {
+    "slug": "nickelodeon-icarly",
+    "name": "Nickelodeon iCarly",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/620ff0a01f9e8700076c6f9d/colorLogoPNG.png"
+  },
+  {
+    "slug": "nickelodeon-teen",
+    "name": "Nickelodeon Teen",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/5fab09a8749b1a00077d35d2/colorLogoPNG_1749640834707.png"
+  },
+  {
+    "slug": "nickelodeon-toons",
+    "name": "Nickelodeon Toons",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/645952687cb4b100084ed52e/colorLogoPNG_1754038340046.png"
+  },
+  {
+    "slug": "rugrats",
+    "name": "Rugrats",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/5ea7215005d66d0007e8128a/colorLogoPNG.png"
+  },
+  {
+    "slug": "pokemon",
+    "name": "Pokémon",
+    "category": "caricaturas",
+    "genre": "Caricaturas",
+    "logoUrl": "https://images.pluto.tv/channels/6870072ca9d5c45c3e9466f1/colorLogoPNG_1752173270400.png"
+  },
+  {
     "slug": "bob-esponja",
     "name": "Bob Esponja Pantalones Cuadrados",
     "category": "caricaturas",
@@ -327,10 +516,10 @@
     "logoUrl": "https://images.pluto.tv/channels/656f37f257fe4a000884dfee/colorLogoPNG.png"
   },
   {
-    "slug": "avatar-aang",
-    "name": "Avatar: La Leyenda de Aang",
+    "slug": "familia-del-barrio",
+    "name": "La Familia del Barrio",
     "category": "caricaturas",
     "genre": "Caricaturas",
-    "logoUrl": "https://images.pluto.tv/channels/6759ee82bd523200083b4f0f/colorLogoPNG.png"
+    "logoUrl": "https://images.pluto.tv/channels/62d08af527ce19000731eaa0/colorLogoPNG.png"
   }
 ]
