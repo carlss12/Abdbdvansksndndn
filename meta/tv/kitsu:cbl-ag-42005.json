@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42005",
+    "type": "tv",
+    "name": "14:45 Benfica vs Gil Vicente (29/10)",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42005-1445.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42005-1445.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42005-1445.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Copa de la Liga"
+    ],
+    "description": "Copa de la Liga · 14:45 (hora de Ciudad de México) (29/10). 5 opciones de transmisión."
+  }
+}

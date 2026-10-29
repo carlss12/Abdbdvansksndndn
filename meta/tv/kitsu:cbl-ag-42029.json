@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42029",
+    "type": "tv",
+    "name": "18:00 NFL – Green Bay Packers vs. Carolina Panthers (29/10)",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42029-1800.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42029-1800.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42029-1800.png",
+    "posterShape": "landscape",
+    "genres": [
+      "NFL"
+    ],
+    "description": "NFL · 18:00 (hora de Ciudad de México) (29/10). 4 opciones de transmisión."
+  }
+}
