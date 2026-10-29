@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42008",
     "type": "tv",
-    "name": "18:30 Grêmio vs Athletico-PR (29/10)",
+    "name": "18:30 Grêmio vs Athletico-PR",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42008-1830.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42008-1830.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42008-1830.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Brasileirão"
     ],
-    "description": "Brasileirão · 18:30 (hora de Ciudad de México) (29/10). 2 opciones de transmisión."
+    "description": "Brasileirão · 18:30 (hora de Ciudad de México). 2 opciones de transmisión."
   }
 }

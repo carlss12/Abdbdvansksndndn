@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42004",
     "type": "tv",
-    "name": "12:45 Sporting Braga vs Famalicão (29/10)",
+    "name": "12:45 Sporting Braga vs Famalicão",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42004-1245.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42004-1245.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42004-1245.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Copa de la Liga"
     ],
-    "description": "Copa de la Liga · 12:45 (hora de Ciudad de México) (29/10). 5 opciones de transmisión."
+    "description": "Copa de la Liga · 12:45 (hora de Ciudad de México). 5 opciones de transmisión."
   }
 }

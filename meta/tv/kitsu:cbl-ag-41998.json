@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-41998",
     "type": "tv",
-    "name": "12:00 Los Chankas vs Cusco (29/10)",
+    "name": "12:00 Los Chankas vs Cusco",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41998-1200.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41998-1200.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41998-1200.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Liga 1"
     ],
-    "description": "Liga 1 · 12:00 (hora de Ciudad de México) (29/10). 4 opciones de transmisión."
+    "description": "Liga 1 · 12:00 (hora de Ciudad de México). 4 opciones de transmisión."
   }
 }

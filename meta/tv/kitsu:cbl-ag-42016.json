@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42016",
     "type": "tv",
-    "name": "09:00 China PR vs Francia (29/10)",
+    "name": "09:00 China PR vs Francia",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42016-0900.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42016-0900.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42016-0900.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Copa Mundial Femenina Sub-17 de la FIFA"
     ],
-    "description": "Copa Mundial Femenina Sub-17 de la FIFA · 09:00 (hora de Ciudad de México) (29/10). 2 opciones de transmisión."
+    "description": "Copa Mundial Femenina Sub-17 de la FIFA · 09:00 (hora de Ciudad de México). 2 opciones de transmisión."
   }
 }

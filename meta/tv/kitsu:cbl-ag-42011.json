@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42011",
     "type": "tv",
-    "name": "18:00 Universidad Católica vs LDU Quito (29/10)",
+    "name": "18:00 Universidad Católica vs LDU Quito",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42011-1800.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42011-1800.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42011-1800.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Copa Ecuador"
     ],
-    "description": "Copa Ecuador · 18:00 (hora de Ciudad de México) (29/10). 1 opciones de transmisión."
+    "description": "Copa Ecuador · 18:00 (hora de Ciudad de México). 1 opciones de transmisión."
   }
 }

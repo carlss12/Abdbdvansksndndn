@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42022",
     "type": "tv",
-    "name": "10:30 CSKA Moskva vs Lokomotiv Moskva (29/10)",
+    "name": "10:30 CSKA Moskva vs Lokomotiv Moskva",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42022-1030.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42022-1030.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42022-1030.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Copa de Rusia"
     ],
-    "description": "Copa de Rusia · 10:30 (hora de Ciudad de México) (29/10). 4 opciones de transmisión."
+    "description": "Copa de Rusia · 10:30 (hora de Ciudad de México). 4 opciones de transmisión."
   }
 }

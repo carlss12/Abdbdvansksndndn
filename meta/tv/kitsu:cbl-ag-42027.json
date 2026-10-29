@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42027",
     "type": "tv",
-    "name": "17:30 Wanderers Durazno vs Danubio (29/10)",
+    "name": "17:30 Wanderers Durazno vs Danubio",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42027-1730.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42027-1730.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42027-1730.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Copa Uruguay"
     ],
-    "description": "Copa Uruguay · 17:30 (hora de Ciudad de México) (29/10). Las opciones de transmisión se publican poco antes del partido."
+    "description": "Copa Uruguay · 17:30 (hora de Ciudad de México). Las opciones de transmisión se publican poco antes del partido."
   }
 }

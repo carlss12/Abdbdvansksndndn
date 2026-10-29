@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42025",
     "type": "tv",
-    "name": "20:10 Marquense vs Guastatoya (29/10)",
+    "name": "20:10 Marquense vs Guastatoya",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42025-2010.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42025-2010.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42025-2010.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Liga Nacional"
     ],
-    "description": "Liga Nacional · 20:10 (hora de Ciudad de México) (29/10). 4 opciones de transmisión."
+    "description": "Liga Nacional · 20:10 (hora de Ciudad de México). 4 opciones de transmisión."
   }
 }

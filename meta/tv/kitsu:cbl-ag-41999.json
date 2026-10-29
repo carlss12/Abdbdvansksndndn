@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-41999",
     "type": "tv",
-    "name": "14:30 Sporting Cristal vs Alianza Lima (29/10)",
+    "name": "14:30 Sporting Cristal vs Alianza Lima",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41999-1430.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41999-1430.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-41999-1430.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Liga 1"
     ],
-    "description": "Liga 1 · 14:30 (hora de Ciudad de México) (29/10). 4 opciones de transmisión."
+    "description": "Liga 1 · 14:30 (hora de Ciudad de México). 4 opciones de transmisión."
   }
 }

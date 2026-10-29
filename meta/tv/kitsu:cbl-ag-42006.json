@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42006",
     "type": "tv",
-    "name": "16:30 Atlético Mineiro vs Cruzeiro (29/10)",
+    "name": "16:30 Atlético Mineiro vs Cruzeiro",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42006-1630.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42006-1630.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42006-1630.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Brasileirão"
     ],
-    "description": "Brasileirão · 16:30 (hora de Ciudad de México) (29/10). Las opciones de transmisión se publican poco antes del partido."
+    "description": "Brasileirão · 16:30 (hora de Ciudad de México). Las opciones de transmisión se publican poco antes del partido."
   }
 }
