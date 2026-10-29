@@ -4,7 +4,7 @@
  * Si una fuente deja de funcionar, se cambia la URL en CHANNELS (o se agrega otra a la lista del canal).
  */
 var DEBUG = true; // true: si el canal se reconoce pero no sale nada, aparece una entrada "DIAGNOSTICO". Poner en false al terminar de probar.
-var VERSION = "1.5.0";
+var VERSION = "1.6.0";
 var LABEL = "Lat 1";
 var PREFIX = "cbl-";
 
@@ -298,6 +298,15 @@ var CHANNELS = {
     ["http://38.190.100.202:8000/play/a05t/index.m3u8","FHD"],
     ["https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8","FHD"],
     ["http://181.78.79.131:8000/play/a0qm","FHD"]
+  ]]],
+  "bob-esponja": [["Bob Esponja Pantalones Cuadrados", [
+    ["https://jmp2.uk/plu-6254598f5083f800076d8563.m3u8","HD"]
+  ]]],
+  "boruto": [["Boruto: Naruto Next Generations", [
+    ["https://jmp2.uk/plu-656f37f257fe4a000884dfee.m3u8","HD"]
+  ]]],
+  "avatar-aang": [["Avatar: La Leyenda de Aang", [
+    ["https://jmp2.uk/plu-6759ee82bd523200083b4f0f.m3u8","HD"]
   ]]],
   "dzn": [["Dazn", [
     "http://cloudtvserviceplatinum.site:8080/live/Rene2024castaneda/Castaneda24rene/584993.ts",
