@@ -1,16 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42022",
-      "type": "tv",
-      "name": "10:30 CSKA Moskva vs Lokomotiv Moskva",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42022-1030.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa de Rusia"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42001",
       "type": "tv",
       "name": "11:30 Frosinone vs Lecce",
