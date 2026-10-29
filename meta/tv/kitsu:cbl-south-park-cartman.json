@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-south-park-cartman",
+    "type": "tv",
+    "name": "South Park: Colección Cartman",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-south-park-cartman.png?v=10254862",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-south-park-cartman.png?v=10254862",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-south-park-cartman.png?v=10254862",
+    "posterShape": "landscape",
+    "genres": [
+      "Caricaturas"
+    ],
+    "description": "Canal en vivo — South Park: Colección Cartman."
+  }
+}

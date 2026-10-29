@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-azteca-deportes-premium",
+    "type": "tv",
+    "name": "Azteca Deportes Premium",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-azteca-deportes-premium.png?v=10254862",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-azteca-deportes-premium.png?v=10254862",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-azteca-deportes-premium.png?v=10254862",
+    "posterShape": "landscape",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "Canal en vivo — Azteca Deportes Premium."
+  }
+}

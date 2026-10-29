@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-nickelodeon-teen",
+    "type": "tv",
+    "name": "Nickelodeon Teen",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-nickelodeon-teen.png?v=10254862",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-nickelodeon-teen.png?v=10254862",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-nickelodeon-teen.png?v=10254862",
+    "posterShape": "landscape",
+    "genres": [
+      "Caricaturas"
+    ],
+    "description": "Canal en vivo — Nickelodeon Teen."
+  }
+}

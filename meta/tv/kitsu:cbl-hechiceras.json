@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-hechiceras",
+    "type": "tv",
+    "name": "Hechiceras",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-hechiceras.png?v=10254862",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-hechiceras.png?v=10254862",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-hechiceras.png?v=10254862",
+    "posterShape": "landscape",
+    "genres": [
+      "Caricaturas"
+    ],
+    "description": "Canal en vivo — Hechiceras."
+  }
+}

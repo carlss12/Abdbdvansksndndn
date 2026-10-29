@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-jojo",
+    "type": "tv",
+    "name": "JoJo's Bizarre Adventure",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-jojo.png?v=10254862",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-jojo.png?v=10254862",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-jojo.png?v=10254862",
+    "posterShape": "landscape",
+    "genres": [
+      "Caricaturas"
+    ],
+    "description": "Canal en vivo — JoJo's Bizarre Adventure."
+  }
+}

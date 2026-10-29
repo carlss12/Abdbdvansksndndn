@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-rugrats",
+    "type": "tv",
+    "name": "Rugrats",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-rugrats.png?v=10254862",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-rugrats.png?v=10254862",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-rugrats.png?v=10254862",
+    "posterShape": "landscape",
+    "genres": [
+      "Caricaturas"
+    ],
+    "description": "Canal en vivo — Rugrats."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-hunter-x-hunter",
+    "type": "tv",
+    "name": "Hunter x Hunter",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-hunter-x-hunter.png?v=10254862",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-hunter-x-hunter.png?v=10254862",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-hunter-x-hunter.png?v=10254862",
+    "posterShape": "landscape",
+    "genres": [
+      "Caricaturas"
+    ],
+    "description": "Canal en vivo — Hunter x Hunter."
+  }
+}

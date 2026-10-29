@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-simpson-24-7",
+    "type": "tv",
+    "name": "Simpson 24/7",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-simpson-24-7.png?v=10254862",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-simpson-24-7.png?v=10254862",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-simpson-24-7.png?v=10254862",
+    "posterShape": "landscape",
+    "genres": [
+      "Caricaturas"
+    ],
+    "description": "Canal en vivo — Simpson 24/7."
+  }
+}
