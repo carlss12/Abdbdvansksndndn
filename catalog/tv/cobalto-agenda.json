@@ -1,36 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42071",
-      "type": "tv",
-      "name": "11:30 Energie Cottbus vs Bochum",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42071-1130.png",
-      "posterShape": "landscape",
-      "genres": [
-        "2. Bundesliga"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42053",
-      "type": "tv",
-      "name": "12:00 Le Havre vs PSG",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42053-1200.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Ligue 1"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42081",
-      "type": "tv",
-      "name": "12:00 Al Shabab vs Al-Ahli",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42081-1200.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Pro League"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42087",
       "type": "tv",
       "name": "12:20 F1 – GP México – Práctica 1",
