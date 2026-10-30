@@ -1,16 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42085",
-      "type": "tv",
-      "name": "10:30 Tenis – ATP 500 Viena y ATP 500 Basilea – Cuartos de final",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42085-1030.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Tennis"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42086",
       "type": "tv",
       "name": "11:00 Premier Padel Kuwait Major – Semifinal #2 Masculina",
