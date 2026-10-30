@@ -1,26 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42055",
-      "type": "tv",
-      "name": "14:05 Lille vs Lens",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42055-1405.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Ligue 1"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42056",
-      "type": "tv",
-      "name": "14:15 Casa Pia vs Sporting CP",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42056-1415.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Primeira Liga"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42066",
       "type": "tv",
       "name": "15:00 Deportivo Pereira vs Jaguares de Córdoba",
