@@ -31,6 +31,16 @@
       ]
     },
     {
+      "id": "kitsu:cbl-ag-42101",
+      "type": "tv",
+      "name": "09:00 Paul T. vs Alcaraz C.",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42101-0900.png",
+      "posterShape": "landscape",
+      "genres": [
+        "ATP - INDIVIDUALES - Viena, dura - Cuartos de final"
+      ]
+    },
+    {
       "id": "kitsu:cbl-ag-42085",
       "type": "tv",
       "name": "10:30 Tenis – ATP 500 Viena y ATP 500 Basilea – Cuartos de final",
@@ -41,16 +51,6 @@
       ]
     },
     {
-      "id": "kitsu:cbl-ag-42076",
-      "type": "tv",
-      "name": "11:00 Konyaspor vs Galatasaray",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42076-1100.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Super Lig"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42086",
       "type": "tv",
       "name": "11:00 Premier Padel Kuwait Major – Semifinal #2 Masculina",
@@ -58,16 +58,6 @@
       "posterShape": "landscape",
       "genres": [
         "Tennis"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42070",
-      "type": "tv",
-      "name": "11:30 Arminia Bielefeld vs Eintracht Braunschweig",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42070-1130.png",
-      "posterShape": "landscape",
-      "genres": [
-        "2. Bundesliga"
       ]
     },
     {
@@ -85,16 +75,6 @@
       "type": "tv",
       "name": "12:00 Le Havre vs PSG",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42053-1200.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Ligue 1"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42054",
-      "type": "tv",
-      "name": "12:00 Nice vs Rennes",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42054-1200.png",
       "posterShape": "landscape",
       "genres": [
         "Ligue 1"
