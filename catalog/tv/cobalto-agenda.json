@@ -1,46 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42021",
-      "type": "tv",
-      "name": "19:00 Alebrijes de Oaxaca vs Mineros de Zacatecas",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42021-1900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Liga de Expansión MX"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42030",
-      "type": "tv",
-      "name": "19:00 Golf – Asia Pacific Amateur Championship – Segunda Ronda",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42030-1900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Golf"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42049",
-      "type": "tv",
-      "name": "19:00 Guatemala vs. República Dominicana",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42049-1900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "FIBA 3x3 AmeriCup 2026"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42010",
-      "type": "tv",
-      "name": "19:30 Atlético Nacional vs Santa Fe",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42010-1930.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Primera A"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42025",
       "type": "tv",
       "name": "20:10 Marquense vs Guastatoya",
