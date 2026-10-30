@@ -1,16 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42082",
-      "type": "tv",
-      "name": "05:00 Premier Padel Kuwait Major – Semifinal #1 Femenina",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42082-0500.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Tennis"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42080",
       "type": "tv",
       "name": "06:30 Abha vs Al Ittihad",
