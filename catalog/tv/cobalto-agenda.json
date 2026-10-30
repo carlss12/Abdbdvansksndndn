@@ -1,14 +1,3 @@
 {
-  "metas": [
-    {
-      "id": "kitsu:cbl-ag-42025",
-      "type": "tv",
-      "name": "20:10 Marquense vs Guastatoya",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42025-2010.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Liga Nacional"
-      ]
-    }
-  ]
+  "metas": []
 }
