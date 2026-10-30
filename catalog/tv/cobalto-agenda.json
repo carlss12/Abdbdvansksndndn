@@ -1,46 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42011",
-      "type": "tv",
-      "name": "18:00 Universidad Católica vs LDU Quito",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42011-1800.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa Ecuador"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42029",
-      "type": "tv",
-      "name": "18:00 NFL – Green Bay Packers vs. Carolina Panthers",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42029-1800.png",
-      "posterShape": "landscape",
-      "genres": [
-        "NFL"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42000",
-      "type": "tv",
-      "name": "18:30 Melgar vs Comerciantes Unidos",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42000-1830.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Liga 1"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42008",
-      "type": "tv",
-      "name": "18:30 Grêmio vs Athletico-PR",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42008-1830.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Brasileirão"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42021",
       "type": "tv",
       "name": "19:00 Alebrijes de Oaxaca vs Mineros de Zacatecas",
