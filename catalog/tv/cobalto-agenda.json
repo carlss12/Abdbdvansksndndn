@@ -1,36 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42007",
-      "type": "tv",
-      "name": "17:00 Vasco da Gama vs Flamengo",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42007-1700.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Brasileirão"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42009",
-      "type": "tv",
-      "name": "17:15 América de Cali vs Fortaleza CEIF",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42009-1715.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Primera A"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42028",
-      "type": "tv",
-      "name": "17:30 NHL – Detroit Red Wings vs. Chicago Blackhawks",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42028-1730.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Amistosos Paises"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42011",
       "type": "tv",
       "name": "18:00 Universidad Católica vs LDU Quito",
@@ -108,16 +78,6 @@
       "posterShape": "landscape",
       "genres": [
         "Primera A"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42020",
-      "type": "tv",
-      "name": "20:00 Alajuelense vs Motagua",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42020-2000.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Copa Centroamericana de CONCACAF"
       ]
     },
     {
