@@ -1,26 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42051",
-      "type": "tv",
-      "name": "14:00 Villarreal vs Espanyol",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42051-1400.png",
-      "posterShape": "landscape",
-      "genres": [
-        "LaLiga"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42069",
-      "type": "tv",
-      "name": "14:00 Sheffield United vs Wrexham",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42069-1400.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Championship"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42055",
       "type": "tv",
       "name": "14:05 Lille vs Lens",
