@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42054",
+    "type": "tv",
+    "name": "12:00 Nice vs Rennes",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42054-1200.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42054-1200.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42054-1200.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Ligue 1"
+    ],
+    "description": "Ligue 1 · 12:00 (hora de Ciudad de México). Las opciones de transmisión se publican poco antes del partido."
+  }
+}

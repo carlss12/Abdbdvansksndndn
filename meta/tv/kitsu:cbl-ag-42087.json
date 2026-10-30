@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42087",
+    "type": "tv",
+    "name": "12:20 F1 – GP México – Práctica 1",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42087-1220.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42087-1220.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42087-1220.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Formula 1"
+    ],
+    "description": "Formula 1 · 12:20 (hora de Ciudad de México). 4 opciones de transmisión."
+  }
+}

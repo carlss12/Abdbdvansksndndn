@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42065",
+    "type": "tv",
+    "name": "16:00 Colo-Colo vs Univ. Concepción",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42065-1600.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42065-1600.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42065-1600.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Primera División"
+    ],
+    "description": "Primera División · 16:00 (hora de Ciudad de México). 3 opciones de transmisión."
+  }
+}

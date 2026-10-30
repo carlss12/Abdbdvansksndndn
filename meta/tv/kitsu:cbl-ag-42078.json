@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42078",
+    "type": "tv",
+    "name": "20:00 Pérez Zeledón vs Puntarenas",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42078-2000.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42078-2000.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42078-2000.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Primera División"
+    ],
+    "description": "Primera División · 20:00 (hora de Ciudad de México). 1 opciones de transmisión."
+  }
+}

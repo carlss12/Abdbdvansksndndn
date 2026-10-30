@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42051",
+    "type": "tv",
+    "name": "14:00 Villarreal vs Espanyol",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42051-1400.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42051-1400.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42051-1400.png",
+    "posterShape": "landscape",
+    "genres": [
+      "LaLiga"
+    ],
+    "description": "LaLiga · 14:00 (hora de Ciudad de México). 5 opciones de transmisión."
+  }
+}

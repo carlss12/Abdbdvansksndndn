@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42069",
+    "type": "tv",
+    "name": "14:00 Sheffield United vs Wrexham",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42069-1400.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42069-1400.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42069-1400.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Championship"
+    ],
+    "description": "Championship · 14:00 (hora de Ciudad de México). 2 opciones de transmisión."
+  }
+}

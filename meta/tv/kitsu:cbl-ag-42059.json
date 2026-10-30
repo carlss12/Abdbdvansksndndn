@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42059",
+    "type": "tv",
+    "name": "18:15 Sarmiento vs Rosario Central",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42059-1815.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42059-1815.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42059-1815.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Liga Profesional"
+    ],
+    "description": "Liga Profesional · 18:15 (hora de Ciudad de México). 4 opciones de transmisión."
+  }
+}

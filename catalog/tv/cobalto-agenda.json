@@ -1,3 +1,444 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "kitsu:cbl-ag-42082",
+      "type": "tv",
+      "name": "05:00 Premier Padel Kuwait Major – Semifinal #1 Femenina",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42082-0500.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Tennis"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42080",
+      "type": "tv",
+      "name": "06:30 Abha vs Al Ittihad",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42080-0630.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Pro League"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42083",
+      "type": "tv",
+      "name": "07:00 Premier Padel Kuwait Major – Semifinal #1 Masculina",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42083-0700.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Tennis"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42084",
+      "type": "tv",
+      "name": "09:00 Premier Padel Kuwait Major – Semifinal #2 Femenina",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42084-0900.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Tennis"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42085",
+      "type": "tv",
+      "name": "10:30 Tenis – ATP 500 Viena y ATP 500 Basilea – Cuartos de final",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42085-1030.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Tennis"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42076",
+      "type": "tv",
+      "name": "11:00 Konyaspor vs Galatasaray",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42076-1100.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Super Lig"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42086",
+      "type": "tv",
+      "name": "11:00 Premier Padel Kuwait Major – Semifinal #2 Masculina",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42086-1100.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Tennis"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42070",
+      "type": "tv",
+      "name": "11:30 Arminia Bielefeld vs Eintracht Braunschweig",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42070-1130.png",
+      "posterShape": "landscape",
+      "genres": [
+        "2. Bundesliga"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42071",
+      "type": "tv",
+      "name": "11:30 Energie Cottbus vs Bochum",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42071-1130.png",
+      "posterShape": "landscape",
+      "genres": [
+        "2. Bundesliga"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42053",
+      "type": "tv",
+      "name": "12:00 Le Havre vs PSG",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42053-1200.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Ligue 1"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42054",
+      "type": "tv",
+      "name": "12:00 Nice vs Rennes",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42054-1200.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Ligue 1"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42081",
+      "type": "tv",
+      "name": "12:00 Al Shabab vs Al-Ahli",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42081-1200.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Pro League"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42087",
+      "type": "tv",
+      "name": "12:20 F1 – GP México – Práctica 1",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42087-1220.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Formula 1"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42052",
+      "type": "tv",
+      "name": "13:30 Elversberg vs Mainz 05",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42052-1330.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Bundesliga"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42051",
+      "type": "tv",
+      "name": "14:00 Villarreal vs Espanyol",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42051-1400.png",
+      "posterShape": "landscape",
+      "genres": [
+        "LaLiga"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42069",
+      "type": "tv",
+      "name": "14:00 Sheffield United vs Wrexham",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42069-1400.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Championship"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42055",
+      "type": "tv",
+      "name": "14:05 Lille vs Lens",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42055-1405.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Ligue 1"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42056",
+      "type": "tv",
+      "name": "14:15 Casa Pia vs Sporting CP",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42056-1415.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Primeira Liga"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42066",
+      "type": "tv",
+      "name": "15:00 Deportivo Pereira vs Jaguares de Córdoba",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42066-1500.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Primera A"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42088",
+      "type": "tv",
+      "name": "15:55 F1 – GP México – Práctica 2",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42088-1555.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Formula 1"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42057",
+      "type": "tv",
+      "name": "16:00 Estudiantes Río Cuarto vs Gimnasia La Plata",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42057-1600.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Liga Profesional"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42058",
+      "type": "tv",
+      "name": "16:00 Huracán vs Tigre",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42058-1600.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Liga Profesional"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42061",
+      "type": "tv",
+      "name": "16:00 Real Potosí vs Independiente Petrolero",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42061-1600.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Primera División"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42064",
+      "type": "tv",
+      "name": "16:00 Coquimbo Unido vs Unión La Calera",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42064-1600.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Primera División"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42065",
+      "type": "tv",
+      "name": "16:00 Colo-Colo vs Univ. Concepción",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42065-1600.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Primera División"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42089",
+      "type": "tv",
+      "name": "16:20 Messi Cup – 5th/7th – Equipos a confirmar",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42089-1620.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Amistosos Paises"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42068",
+      "type": "tv",
+      "name": "16:30 Criciúma vs Ponte Preta",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42068-1630.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Serie B"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42063",
+      "type": "tv",
+      "name": "17:00 Corinthians vs Mirassol",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42063-1700.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Brasileirão"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42062",
+      "type": "tv",
+      "name": "18:00 Oriente Petrolero vs Aurora",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42062-1800.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Primera División"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42077",
+      "type": "tv",
+      "name": "18:00 Inter San Carlos vs Escorpiones Belén",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42077-1800.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Primera División"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42090",
+      "type": "tv",
+      "name": "18:00 MLB – World Series – Game #6 – Milwaukee",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42090-1800.png",
+      "posterShape": "landscape",
+      "genres": [
+        "MLB Preseason"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42059",
+      "type": "tv",
+      "name": "18:15 Sarmiento vs Rosario Central",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42059-1815.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Liga Profesional"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42060",
+      "type": "tv",
+      "name": "18:15 Racing Club vs Aldosivi",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42060-1815.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Liga Profesional"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42072",
+      "type": "tv",
+      "name": "19:00 Atlético San Luis vs Atlas",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42072-1900.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Liga MX"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42073",
+      "type": "tv",
+      "name": "19:00 Juárez vs Querétaro",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42073-1900.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Liga MX"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42075",
+      "type": "tv",
+      "name": "19:00 Correcaminos UAT vs Venados",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42075-1900.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Liga de Expansión MX"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42091",
+      "type": "tv",
+      "name": "19:00 ESPN Knockout – LFA 245 – Juliano Prescendo (BRA) vs. Ansar Khamzaev (USA)",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42091-1900.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Boxeo"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42092",
+      "type": "tv",
+      "name": "19:00 Golf – Asia Pacific Amateur Championship – Tercera Ronda",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42092-1900.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Golf"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42067",
+      "type": "tv",
+      "name": "19:05 Atlético Bucaramanga vs Deportivo Pasto",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42067-1905.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Primera A"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42078",
+      "type": "tv",
+      "name": "20:00 Pérez Zeledón vs Puntarenas",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42078-2000.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Primera División"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42093",
+      "type": "tv",
+      "name": "20:45 MotoGP Malasia – Clasificación",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42093-2045.png",
+      "posterShape": "landscape",
+      "genres": [
+        "MOTO GP"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42074",
+      "type": "tv",
+      "name": "21:00 Puebla vs Pumas UNAM",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42074-2100.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Liga MX"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42079",
+      "type": "tv",
+      "name": "21:00 Monterrey vs Pumas UNAM",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42079-2100.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Liga MX Femenil"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42094",
+      "type": "tv",
+      "name": "21:00 ESPN Knockout – All Stars Boxing – Bryan Blandon (NIC) vs. a confirmar",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42094-2100.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Boxeo"
+      ]
+    }
+  ]
 }

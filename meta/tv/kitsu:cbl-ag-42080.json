@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42080",
+    "type": "tv",
+    "name": "06:30 Abha vs Al Ittihad",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42080-0630.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42080-0630.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42080-0630.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Pro League"
+    ],
+    "description": "Pro League · 06:30 (hora de Ciudad de México). 5 opciones de transmisión."
+  }
+}

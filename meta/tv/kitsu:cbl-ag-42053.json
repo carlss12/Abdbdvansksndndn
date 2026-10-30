@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42053",
+    "type": "tv",
+    "name": "12:00 Le Havre vs PSG",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42053-1200.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42053-1200.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42053-1200.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Ligue 1"
+    ],
+    "description": "Ligue 1 · 12:00 (hora de Ciudad de México). 3 opciones de transmisión."
+  }
+}
