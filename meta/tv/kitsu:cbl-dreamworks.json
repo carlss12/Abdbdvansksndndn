@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-dreamworks",
+    "type": "tv",
+    "name": "DreamWorks",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-dreamworks.png?v=93991f87",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-dreamworks.png?v=93991f87",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-dreamworks.png?v=93991f87",
+    "posterShape": "landscape",
+    "genres": [
+      "Infantil"
+    ],
+    "description": "Canal en vivo — DreamWorks."
+  }
+}

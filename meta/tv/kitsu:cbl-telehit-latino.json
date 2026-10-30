@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-telehit-latino",
+    "type": "tv",
+    "name": "Telehit Latino",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-telehit-latino.png?v=93991f87",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-telehit-latino.png?v=93991f87",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-telehit-latino.png?v=93991f87",
+    "posterShape": "landscape",
+    "genres": [
+      "Canales"
+    ],
+    "description": "Canal en vivo — Telehit Latino."
+  }
+}

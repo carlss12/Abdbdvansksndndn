@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-pasiones",
+    "type": "tv",
+    "name": "Pasiones",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-pasiones.png?v=93991f87",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-pasiones.png?v=93991f87",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-pasiones.png?v=93991f87",
+    "posterShape": "landscape",
+    "genres": [
+      "Cine y series"
+    ],
+    "description": "Canal en vivo — Pasiones."
+  }
+}

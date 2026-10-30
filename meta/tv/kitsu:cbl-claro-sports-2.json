@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-claro-sports-2",
+    "type": "tv",
+    "name": "Claro Sports 2",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-claro-sports-2.png?v=93991f87",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-claro-sports-2.png?v=93991f87",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-claro-sports-2.png?v=93991f87",
+    "posterShape": "landscape",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "Canal en vivo — Claro Sports 2."
+  }
+}

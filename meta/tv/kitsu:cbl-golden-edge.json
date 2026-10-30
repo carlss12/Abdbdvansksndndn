@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-golden-edge",
+    "type": "tv",
+    "name": "Golden Edge",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-golden-edge.png?v=93991f87",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-golden-edge.png?v=93991f87",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-golden-edge.png?v=93991f87",
+    "posterShape": "landscape",
+    "genres": [
+      "Cine y series"
+    ],
+    "description": "Canal en vivo — Golden Edge."
+  }
+}

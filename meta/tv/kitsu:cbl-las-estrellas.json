@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-las-estrellas",
+    "type": "tv",
+    "name": "Las Estrellas",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-las-estrellas.png?v=93991f87",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-las-estrellas.png?v=93991f87",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-las-estrellas.png?v=93991f87",
+    "posterShape": "landscape",
+    "genres": [
+      "TV abierta"
+    ],
+    "description": "Canal en vivo — Las Estrellas."
+  }
+}

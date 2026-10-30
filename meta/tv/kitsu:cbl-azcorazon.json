@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-azcorazon",
+    "type": "tv",
+    "name": "Azcorazón",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-azcorazon.png?v=93991f87",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-azcorazon.png?v=93991f87",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-azcorazon.png?v=93991f87",
+    "posterShape": "landscape",
+    "genres": [
+      "TV abierta"
+    ],
+    "description": "Canal en vivo — Azcorazón."
+  }
+}
