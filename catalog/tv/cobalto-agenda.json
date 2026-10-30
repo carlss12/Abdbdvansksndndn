@@ -1,16 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42006",
-      "type": "tv",
-      "name": "16:30 Atlético Mineiro vs Cruzeiro",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42006-1630.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Brasileirão"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42007",
       "type": "tv",
       "name": "17:00 Vasco da Gama vs Flamengo",
@@ -98,6 +88,16 @@
       "posterShape": "landscape",
       "genres": [
         "Golf"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-ag-42049",
+      "type": "tv",
+      "name": "19:00 Guatemala vs. República Dominicana",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42049-1900.png",
+      "posterShape": "landscape",
+      "genres": [
+        "FIBA 3x3 AmeriCup 2026"
       ]
     },
     {
