@@ -188,6 +188,24 @@
     "logoUrl": "https://images.pluto.tv/channels/65cf60d166eec80008724e6f/colorLogoPNG.png"
   },
   {
+    "slug": "claro-sports-1",
+    "name": "Claro Sports 1",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "claro-sports-2",
+    "name": "Claro Sports 2",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
+    "slug": "claro-sports-3",
+    "name": "Claro Sports 3",
+    "category": "deportes",
+    "genre": "Deportes"
+  },
+  {
     "slug": "hbo",
     "name": "HBO",
     "category": "canales",
@@ -318,6 +336,119 @@
     "name": "Telemundo",
     "category": "canales",
     "genre": "TV abierta"
+  },
+  {
+    "slug": "azcorazon",
+    "name": "Azcorazón",
+    "category": "canales",
+    "genre": "TV abierta",
+    "iptv": "Azteca Corazón"
+  },
+  {
+    "slug": "pasiones",
+    "name": "Pasiones",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "universal-cinema",
+    "name": "Universal Cinema",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "universal-comedy",
+    "name": "Universal Comedy",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "universal-crime",
+    "name": "Universal Crime",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "universal-premiere",
+    "name": "Universal Premiere",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "universal-reality",
+    "name": "Universal Reality",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "tnt-series",
+    "name": "TNT Series",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "cartoon-network",
+    "name": "Cartoon Network",
+    "category": "canales",
+    "genre": "Infantil"
+  },
+  {
+    "slug": "cartoonito",
+    "name": "Cartoonito",
+    "category": "canales",
+    "genre": "Infantil"
+  },
+  {
+    "slug": "comedy-central-hd",
+    "name": "Comedy Central",
+    "category": "canales",
+    "genre": "Canales",
+    "iptv": "Comedy Central"
+  },
+  {
+    "slug": "disney-jr",
+    "name": "Disney Jr",
+    "category": "canales",
+    "genre": "Infantil",
+    "iptv": "Disney Junior"
+  },
+  {
+    "slug": "disney-channel",
+    "name": "Disney Channel",
+    "category": "canales",
+    "genre": "Infantil"
+  },
+  {
+    "slug": "dreamworks",
+    "name": "DreamWorks",
+    "category": "canales",
+    "genre": "Infantil"
+  },
+  {
+    "slug": "telehit-latino",
+    "name": "Telehit Latino",
+    "category": "canales",
+    "genre": "Canales",
+    "iptv": "Telehit"
+  },
+  {
+    "slug": "las-estrellas",
+    "name": "Las Estrellas",
+    "category": "canales",
+    "genre": "TV abierta"
+  },
+  {
+    "slug": "golden-edge",
+    "name": "Golden Edge",
+    "category": "canales",
+    "genre": "Cine y series"
+  },
+  {
+    "slug": "canal-6",
+    "name": "Canal 6",
+    "category": "canales",
+    "genre": "TV abierta",
+    "logoUrl": "https://i.pinimg.com/originals/36/ae/a4/36aea42445a7f4fb199b8c34c9ac55f5.png"
   },
   {
     "slug": "simpson-24-7",
