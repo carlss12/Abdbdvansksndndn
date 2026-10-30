@@ -1,12 +1,12 @@
 {
   "name": "Cipres T + Onix T + Marfil T + Berilo T",
-  "version": "1.6",
+  "version": "1.7",
   "scrapers": [
     {
       "id": "CipresT",
       "name": "Ciprés T",
       "description": "Fuentes adicionales para canales en vivo",
-      "version": "1.5",
+      "version": "1.6",
       "author": "-",
       "supportedTypes": [
         "tv"
