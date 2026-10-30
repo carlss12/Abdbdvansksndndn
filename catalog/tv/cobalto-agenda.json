@@ -1,26 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42080",
-      "type": "tv",
-      "name": "06:30 Abha vs Al Ittihad",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42080-0630.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Pro League"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42083",
-      "type": "tv",
-      "name": "07:00 Premier Padel Kuwait Major – Semifinal #1 Masculina",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42083-0700.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Tennis"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42084",
       "type": "tv",
       "name": "09:00 Premier Padel Kuwait Major – Semifinal #2 Femenina",
