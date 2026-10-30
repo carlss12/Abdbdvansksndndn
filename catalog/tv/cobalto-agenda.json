@@ -1,16 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42086",
-      "type": "tv",
-      "name": "11:00 Premier Padel Kuwait Major – Semifinal #2 Masculina",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42086-1100.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Tennis"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42071",
       "type": "tv",
       "name": "11:30 Energie Cottbus vs Bochum",
