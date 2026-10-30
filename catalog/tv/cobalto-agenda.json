@@ -1,26 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42084",
-      "type": "tv",
-      "name": "09:00 Premier Padel Kuwait Major – Semifinal #2 Femenina",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42084-0900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Tennis"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42101",
-      "type": "tv",
-      "name": "09:00 Paul T. vs Alcaraz C.",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42101-0900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "ATP - INDIVIDUALES - Viena, dura - Cuartos de final"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42085",
       "type": "tv",
       "name": "10:30 Tenis – ATP 500 Viena y ATP 500 Basilea – Cuartos de final",
