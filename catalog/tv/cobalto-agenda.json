@@ -1,16 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42052",
-      "type": "tv",
-      "name": "13:30 Elversberg vs Mainz 05",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42052-1330.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Bundesliga"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42051",
       "type": "tv",
       "name": "14:00 Villarreal vs Espanyol",
@@ -128,16 +118,6 @@
       "posterShape": "landscape",
       "genres": [
         "Amistosos Paises"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42068",
-      "type": "tv",
-      "name": "16:30 Criciúma vs Ponte Preta",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42068-1630.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Serie B"
       ]
     },
     {
