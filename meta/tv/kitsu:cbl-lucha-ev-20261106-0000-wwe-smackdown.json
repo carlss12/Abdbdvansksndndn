@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-lucha-ev-20261106-0000-wwe-smackdown",
+    "type": "tv",
+    "name": "Vie 06/11 00:00 WWE SmackDown",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261106-0000-wwe-smackdown.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261106-0000-wwe-smackdown.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261106-0000-wwe-smackdown.png",
+    "posterShape": "landscape",
+    "genres": [
+      "WWE"
+    ],
+    "description": "WWE SmackDown · viernes 6 de noviembre, 00:00 (hora de Ciudad de México). Se abre con las fuentes del canal Lucha en vivo: solo reproduce mientras el evento esté en vivo en ellas."
+  }
+}

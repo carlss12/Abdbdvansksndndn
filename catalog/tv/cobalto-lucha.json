@@ -1,0 +1,114 @@
+{
+  "metas": [
+    {
+      "id": "kitsu:cbl-lucha-ev-20261031-xxxx-nxt-hallowen-havoc-2026",
+      "type": "tv",
+      "name": "Sáb 31/10 NXT Hallowen Havoc 2026",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261031-xxxx-nxt-hallowen-havoc-2026.png",
+      "posterShape": "landscape",
+      "genres": [
+        "NXT"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-lucha-ev-20261031-0200-aaa-heroes-inmortales-2026",
+      "type": "tv",
+      "name": "Sáb 31/10 02:00 AAA Heroes Inmortales 2026",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261031-0200-aaa-heroes-inmortales-2026.png",
+      "posterShape": "landscape",
+      "genres": [
+        "AAA"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-lucha-ev-20261102-0000-wwe-raw",
+      "type": "tv",
+      "name": "Lun 02/11 00:00 WWE RAW",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261102-0000-wwe-raw.png",
+      "posterShape": "landscape",
+      "genres": [
+        "WWE"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-lucha-ev-20261103-0000-wwe-nxt",
+      "type": "tv",
+      "name": "Mar 03/11 00:00 WWE NXT",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261103-0000-wwe-nxt.png",
+      "posterShape": "landscape",
+      "genres": [
+        "NXT"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-lucha-ev-20261105-0000-tna-impact",
+      "type": "tv",
+      "name": "Jue 05/11 00:00 TNA Impact",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261105-0000-tna-impact.png",
+      "posterShape": "landscape",
+      "genres": [
+        "TNA"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-lucha-ev-20261106-0000-wwe-smackdown",
+      "type": "tv",
+      "name": "Vie 06/11 00:00 WWE SmackDown",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261106-0000-wwe-smackdown.png",
+      "posterShape": "landscape",
+      "genres": [
+        "WWE"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-lucha-ev-20261107-1700-wwe-crown-jewel-2026",
+      "type": "tv",
+      "name": "Sáb 07/11 17:00 WWE Crown Jewel 2026",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261107-1700-wwe-crown-jewel-2026.png",
+      "posterShape": "landscape",
+      "genres": [
+        "WWE"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-lucha-ev-20261114-2300-aew-full-gear-2026",
+      "type": "tv",
+      "name": "Sáb 14/11 23:00 AEW Full Gear 2026",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261114-2300-aew-full-gear-2026.png",
+      "posterShape": "landscape",
+      "genres": [
+        "AEW"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-lucha-ev-20261128-xxxx-wwe-survivor-series-wargames-2026",
+      "type": "tv",
+      "name": "Sáb 28/11 WWE Survivor Series: WarGames 2026",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261128-xxxx-wwe-survivor-series-wargames-2026.png",
+      "posterShape": "landscape",
+      "genres": [
+        "WWE"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-lucha-ev-20261212-1700-wwe-wrestlepalooza-2026",
+      "type": "tv",
+      "name": "Sáb 12/12 17:00 WWE Wrestlepalooza 2026",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261212-1700-wwe-wrestlepalooza-2026.png",
+      "posterShape": "landscape",
+      "genres": [
+        "WWE"
+      ]
+    },
+    {
+      "id": "kitsu:cbl-lucha-ev-20261219-2300-aew-worlds-end-2026",
+      "type": "tv",
+      "name": "Sáb 19/12 23:00 AEW Worlds End 2026",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261219-2300-aew-worlds-end-2026.png",
+      "posterShape": "landscape",
+      "genres": [
+        "AEW"
+      ]
+    }
+  ]
+}
