@@ -1,1 +1,12 @@
-
+{
+  "fuente": "luchaonline.com/ver-horario (tomado de captura de pantalla del 30/10/2026)",
+  "eventos": [
+    { "fecha": "Sabado 31 de Octubre", "hora": "0:00", "evento": "NXT Hallowen Havoc 2026" },
+    { "fecha": "Sabado 31 de Octubre", "hora": "20:00", "evento": "AAA Heroes Inmortales 2026" },
+    { "fecha": "Sabado 07 de Noviembre", "hora": "11:00", "evento": "WWE Crown Jewel 2026" },
+    { "fecha": "Sabado 14 de Noviembre", "hora": "17:00", "evento": "AEW Full Gear 2026" },
+    { "fecha": "Sabado 28 de Noviembre", "hora": "0:00", "evento": "WWE Survivor Series: WarGames 2026" },
+    { "fecha": "Sabado 12 de Diciembre", "hora": "11:00", "evento": "WWE Wrestlepalooza 2026" },
+    { "fecha": "Sabado 19 de Diciembre", "hora": "17:00", "evento": "AEW Worlds End 2026" }
+  ]
+}
