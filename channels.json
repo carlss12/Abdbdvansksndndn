@@ -206,6 +206,12 @@
     "genre": "Deportes"
   },
   {
+    "slug": "lucha-en-vivo",
+    "name": "Lucha en vivo",
+    "category": "deportes",
+    "genre": "Lucha"
+  },
+  {
     "slug": "hbo",
     "name": "HBO",
     "category": "canales",
