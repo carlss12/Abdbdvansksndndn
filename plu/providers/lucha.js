@@ -10,7 +10,7 @@ if (typeof globalThis.setTimeout !== "function") {
   globalThis.clearTimeout = function () {};
 }
 var DEBUG = true; // true: si el canal se reconoce pero no sale nada, aparece una entrada "DIAGNOSTICO". Poner en false al terminar de probar.
-var VERSION = "1.0.3";
+var VERSION = "1.0.4";
 var LABEL = "Lucha";
 var PREFIX = "cbl-lucha";
 var REFERER = "https://minhasdelicias.com/";
@@ -25,7 +25,7 @@ var SOURCES = [
 var AD_HOSTS = /aguadepez\.store|doubleclick|googlesyndication|google\.com|youtube\.com|facebook\.com/i;
 
 var TRACE = [];
-function trace(m) { TRACE.push(String(m).replace(/\s+/g, " ").slice(0, 520)); }
+function trace(m) { TRACE.push(String(m).replace(/\s+/g, " ").slice(0, 420)); }
 
 function isMine(id) { return String(id || "").toLowerCase().indexOf(PREFIX) >= 0; }
 
@@ -104,20 +104,26 @@ function findPlaylist(html, base) {
   }
   return "";
 }
-// Pistas para el diagnostico cuando una pagina no suelta la lista: que trae y donde mirar.
+// Pistas para el diagnostico cuando una pagina no suelta la lista: devuelve varias lineas cortas.
+function vis(x) { return String(x || "").replace(/[^\x20-\x7e]/g, "·").replace(/\s+/g, " "); }
 function hints(html) {
   var t = String(html || ""), h = [];
-  if (/eval\(function\(p,a,c,k,e/.test(t)) h.push("packer" + (unpack(t) ? " ok" : " NO-desempaca"));
-  var n = (t.match(/\.m3u8/g) || []).length; if (n) h.push("m3u8x" + n);
-  if (/atob\(/.test(t)) h.push("atob");
-  if (/jwplayer|clappr|hls\.js|videojs|Playerjs/i.test(t)) h.push((/jwplayer|clappr|hls\.js|videojs|Playerjs/i.exec(t) || [""])[0]);
-  var f = /(?:file|source|src|hls\d?|playlist)["']?\s*[:=]\s*["']([^"']{8,90})["']/i.exec(t); if (f) h.push("file=" + f[1]);
-  var d = /document\.location\s*=\s*["']?([^"';\s]{0,80})/.exec(t); if (d) h.push("redir=" + d[1]);
-  var a = /.{0,50}atob\(.{0,70}/.exec(t); if (a) h.push("ATOB{" + a[0].replace(/\s+/g, " ") + "}");
-  var c = /.{0,40}(?:new Clappr\.Player|new Clappr)[^;]{0,120}/.exec(t); if (c) h.push("CLAPPR{" + c[0].replace(/\s+/g, " ") + "}");
-  var k = /["']?(?:hls|cmaf|dash|playlist|streamUrl|stream_url|manifest)\w{0,10}["']?\s*[:=]\s*["'][^"']{6,100}/i.exec(t); if (k) h.push("KEY{" + k[0] + "}");
-  var L = /[A-Za-z0-9+\/=_-]{200,}/.exec(t); if (L) h.push("blob" + L[0].length + ":" + L[0].slice(0, 24));
-  return h.join(" ");
+  var n = (t.match(/\.m3u8/g) || []).length; if (n) h.push("m3u8 x" + n);
+  var pk = /jwplayer|clappr|hls\.js|videojs|Playerjs/i.exec(t); if (pk) h.push("player " + pk[0]);
+  var bm = /[A-Za-z0-9+\/=_-]{200,}/.exec(t);
+  if (bm) {
+    var i = bm.index, e = i + bm[0].length;
+    h.push("BLOB " + bm[0].length + " en " + i + " de " + t.length);
+    h.push("ANTES{" + vis(t.slice(Math.max(0, i - 160), i)) + "}");
+    h.push("DESPUES{" + vis(t.slice(e, e + 360)) + "}");
+    h.push("FIN{" + vis(bm[0].slice(-40)) + "}");
+    h.push("CAPA1{" + vis(b64decode(bm[0].slice(0, 160))).slice(0, 90) + "}");
+  }
+  var k = /(?:hls|cmaf|dash|playlist|streamUrl|stream_url|manifest)\w{0,10}["']?\s*[:=]\s*["'](?:https?:)?\/[^"']{6,100}/i.exec(t); if (k) h.push("KEY{" + vis(k[0]) + "}");
+  var hosts = [], re = /https?:\\?\/\\?\/([a-z0-9.-]+\.[a-z]{2,})/gi, m2;
+  while ((m2 = re.exec(t)) && hosts.length < 8) { var hh = m2[1].toLowerCase(); if (hosts.indexOf(hh) < 0 && !/w3\.org|schema\.org|ogp\.me|jsdelivr|googleapis/.test(hh)) hosts.push(hh); }
+  if (hosts.length) h.push("HOSTS " + hosts.join(" "));
+  return h;
 }
 function findIframes(html, base) {
   var out = [], re = /<iframe[^>]+src=["']([^"']+)["']/gi, m;
@@ -130,6 +136,22 @@ function findIframes(html, base) {
   return out;
 }
 
+// EXPERIMENTAL (sin probar): VK Live carga el stream por su API; se prueba con el nombre del canal (ultimo tramo del enlace).
+async function vkApi(url) {
+  var name = (/\/embed\/([^\/?#]+)/.exec(url) || [])[1];
+  if (!name) return "";
+  var cands = ["https://api.live.vkvideo.ru/v1/blog/" + name + "/public_video_stream", "https://api.live.vkvideo.ru/v1/blog/" + name + "/public_video_stream/data_for_player"];
+  for (var i = 0; i < cands.length; i++) {
+    try {
+      var r = await get(cands[i], { "Referer": "https://live.vkvideo.ru/", "Origin": "https://live.vkvideo.ru", "Accept": "application/json" }, 6000);
+      var hit = r.ok ? pick(clean(r.text), cands[i]) : "";
+      trace("vkapi " + (i + 1) + " " + r.status + " " + r.text.length + "B " + (hit ? "m3u8 " + hit.replace(/^https?:\/\//, "").slice(0, 90) : "sin m3u8: " + vis(r.text).slice(0, 110)));
+      if (hit) return hit;
+    } catch (e) { trace("vkapi " + (i + 1) + " fallo: " + String(e && e.message || e)); }
+  }
+  return "";
+}
+
 // Abre la pagina con el Referer de la que la embebe; si no trae la lista pero si otro reproductor (iframe), lo sigue
 // (dos niveles como mucho) con esta pagina como Referer. Cada paso deja una linea en TRACE para el diagnostico.
 async function extract(url, referer, depth) {
@@ -140,6 +162,7 @@ async function extract(url, referer, depth) {
   var tag = host + (final && final !== host ? ">" + final : "") + " " + r.status + " " + r.text.length + "B";
   if (!r.ok) { trace(tag); return null; }
   var found = findPlaylist(r.text, r.url);
+  if (!found && /(^|\.)live\.vkvideo\.ru$/.test(host)) found = await vkApi(url); // experimental: la pagina de VK carga el video por su API
   if (found) { trace(tag + " m3u8 " + found.replace(/^https?:\/\//, "").slice(0, 110)); return { url: found, page: r.url }; }
   var frames = findIframes(r.text, r.url);
   if (frames.length && depth > 0) {
@@ -150,7 +173,7 @@ async function extract(url, referer, depth) {
     }
     return null;
   }
-  trace(tag + " nada [" + hints(r.text) + "] " + r.text.replace(/\s+/g, " ").slice(0, 60));
+  trace(tag + " nada"); hints(r.text).forEach(function (x) { trace("  " + x); });
   return null;
 }
 
