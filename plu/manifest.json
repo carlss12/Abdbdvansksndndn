@@ -1,1 +1,81 @@
-
+{
+  "name": "Plugins descontinuados",
+  "version": "3.0",
+  "scrapers": [
+    {
+      "id": "CipresT",
+      "name": "Ciprés T (descontinuado)",
+      "description": "DESCONTINUADO: este plugin ya no se usa. Quítalo y agrega el addon nuevo.",
+      "version": "2.0",
+      "author": "-",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/cipres.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "OnixT",
+      "name": "Ónix T (descontinuado)",
+      "description": "DESCONTINUADO: este plugin ya no se usa. Quítalo y agrega el addon nuevo.",
+      "version": "2.0",
+      "author": "-",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/onix.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "MarfilT",
+      "name": "Marfil T (descontinuado)",
+      "description": "DESCONTINUADO: este plugin ya no se usa. Quítalo y agrega el addon nuevo.",
+      "version": "2.0",
+      "author": "-",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/marfil.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "BeriloT",
+      "name": "Berilo T (descontinuado)",
+      "description": "DESCONTINUADO: este plugin ya no se usa. Quítalo y agrega el addon nuevo.",
+      "version": "2.0",
+      "author": "-",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/berilo.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "LuchaT",
+      "name": "Lucha T (descontinuado)",
+      "description": "DESCONTINUADO: este plugin ya no se usa. Quítalo y agrega el addon nuevo.",
+      "version": "2.0",
+      "author": "-",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/lucha.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    }
+  ]
+}
