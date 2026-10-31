@@ -61,6 +61,16 @@
       ]
     },
     {
+      "id": "kitsu:cbl-ag-42186",
+      "type": "tv",
+      "name": "07:45 Clermont vs. Racing 92",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42186-0745.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Rugby"
+      ]
+    },
+    {
       "id": "kitsu:cbl-ag-42121",
       "type": "tv",
       "name": "08:00 Bologna vs Monza",
@@ -398,16 +408,6 @@
       "posterShape": "landscape",
       "genres": [
         "Serie A"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42163",
-      "type": "tv",
-      "name": "16:00 Rentistas vs La Luz",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42163-1600.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Segunda División"
       ]
     },
     {

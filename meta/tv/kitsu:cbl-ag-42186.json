@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42186",
+    "type": "tv",
+    "name": "07:45 Clermont vs. Racing 92",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42186-0745.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42186-0745.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42186-0745.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Rugby"
+    ],
+    "description": "Rugby · 07:45 (hora de Ciudad de México). 4 opciones de transmisión."
+  }
+}
