@@ -10,7 +10,7 @@ if (typeof globalThis.setTimeout !== "function") {
   globalThis.clearTimeout = function () {};
 }
 var DEBUG = true; // true: si el canal se reconoce pero no sale nada, aparece una entrada "DIAGNOSTICO". Poner en false al terminar de probar.
-var VERSION = "1.0.0";
+var VERSION = "1.0.1";
 var LABEL = "Lucha";
 var PREFIX = "cbl-lucha";
 var REFERER = "https://minhasdelicias.com/";
@@ -112,7 +112,7 @@ async function extract(url, referer, depth) {
   var tag = host + (final && final !== host ? ">" + final : "") + " " + r.status + " " + r.text.length + "B";
   if (!r.ok) { trace(tag); return null; }
   var found = findPlaylist(r.text);
-  if (found) { trace(tag + " m3u8"); return { url: found, page: r.url }; }
+  if (found) { trace(tag + " m3u8 " + found.replace(/^https?:\/\//, "").slice(0, 110)); return { url: found, page: r.url }; }
   var frames = findIframes(r.text, r.url);
   if (frames.length && depth > 0) {
     trace(tag + " iframe " + frames.length);
@@ -130,9 +130,10 @@ async function extract(url, referer, depth) {
 async function verify(url, page) {
   try {
     var r = await get(url, { "Referer": origin(page) + "/", "Origin": origin(page) }, 4500);
-    if (r.ok) return /^#EXTM3U/.test(r.text.replace(/^\s+/, "")) ? "ok" : "offline";
+    if (r.ok) { var good = /^#EXTM3U/.test(r.text.replace(/^\s+/, "")); trace("verify 200 " + (good ? "lista" : "no es lista: " + r.text.slice(0, 60))); return good ? "ok" : "offline"; }
+    trace("verify " + r.status);
     return r.status >= 400 ? "offline" : "ok";
-  } catch (e) { return "ok"; }
+  } catch (e) { trace("verify sin respuesta: " + String(e && e.message || e)); return "ok"; }
 }
 
 async function getStreams(tmdbId, type, season, episode) {
@@ -156,10 +157,10 @@ async function getStreams(tmdbId, type, season, episode) {
     if (seen[f.url]) return;
     seen[f.url] = true;
     var o = origin(f.page);
-    results.push({ name: LABEL, title: f.name, url: f.url, quality: "EN VIVO", headers: { "Referer": o + "/", "Origin": o, "User-Agent": UA } });
+    results.push({ name: LABEL, title: f.name + " · " + hostOf(f.url), url: f.url, quality: "EN VIVO", headers: { "Referer": o + "/", "Origin": o, "User-Agent": UA } });
   });
-  if (results.length) return results;
-  return DEBUG ? [{ name: LABEL, title: "", url: "https://example.com/", quality: "🛠 DIAGNOSTICO (no reproducir)\n" + TRACE.join("\n"), headers: {} }] : [];
+  if (DEBUG) results.push({ name: LABEL, title: "", url: "https://example.com/", quality: "🛠 DIAGNOSTICO (no reproducir)\n" + TRACE.join("\n"), headers: {} }); // con DEBUG sale siempre, aunque haya fuentes
+  return results;
 }
 
 exports.getStreams = getStreams;
