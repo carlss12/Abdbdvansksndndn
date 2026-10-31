@@ -10,7 +10,7 @@ if (typeof globalThis.setTimeout !== "function") {
   globalThis.clearTimeout = function () {};
 }
 var DEBUG = true; // true: si el canal se reconoce pero no sale nada, aparece una entrada "DIAGNOSTICO". Poner en false al terminar de probar.
-var VERSION = "1.0.2";
+var VERSION = "1.0.3";
 var LABEL = "Lucha";
 var PREFIX = "cbl-lucha";
 var REFERER = "https://minhasdelicias.com/";
@@ -25,7 +25,7 @@ var SOURCES = [
 var AD_HOSTS = /aguadepez\.store|doubleclick|googlesyndication|google\.com|youtube\.com|facebook\.com/i;
 
 var TRACE = [];
-function trace(m) { TRACE.push(String(m).replace(/\s+/g, " ").slice(0, 260)); }
+function trace(m) { TRACE.push(String(m).replace(/\s+/g, " ").slice(0, 520)); }
 
 function isMine(id) { return String(id || "").toLowerCase().indexOf(PREFIX) >= 0; }
 
@@ -93,9 +93,13 @@ function findPlaylist(html, base) {
   var packed = clean(unpack(text));
   hit = packed && pick(packed, base);
   if (hit) return hit;
-  var re = /atob\(\s*["']([A-Za-z0-9+\/=_-]{16,})["']\s*\)/g, b;
-  while ((b = re.exec(text))) {
-    hit = pick(clean(b64decode(b[1])), base);
+  var re = /["']([A-Za-z0-9+\/=_-]{40,})["']/g, b, n = 0;
+  while ((b = re.exec(text)) && n++ < 60) {
+    var dec = clean(b64decode(b[1]));
+    hit = pick(dec, base) || pick(dec.split("").reverse().join(""), base);
+    if (hit) return hit;
+    var rev = clean(b64decode(b[1].split("").reverse().join("")));
+    hit = pick(rev, base);
     if (hit) return hit;
   }
   return "";
@@ -109,6 +113,10 @@ function hints(html) {
   if (/jwplayer|clappr|hls\.js|videojs|Playerjs/i.test(t)) h.push((/jwplayer|clappr|hls\.js|videojs|Playerjs/i.exec(t) || [""])[0]);
   var f = /(?:file|source|src|hls\d?|playlist)["']?\s*[:=]\s*["']([^"']{8,90})["']/i.exec(t); if (f) h.push("file=" + f[1]);
   var d = /document\.location\s*=\s*["']?([^"';\s]{0,80})/.exec(t); if (d) h.push("redir=" + d[1]);
+  var a = /.{0,50}atob\(.{0,70}/.exec(t); if (a) h.push("ATOB{" + a[0].replace(/\s+/g, " ") + "}");
+  var c = /.{0,40}(?:new Clappr\.Player|new Clappr)[^;]{0,120}/.exec(t); if (c) h.push("CLAPPR{" + c[0].replace(/\s+/g, " ") + "}");
+  var k = /["']?(?:hls|cmaf|dash|playlist|streamUrl|stream_url|manifest)\w{0,10}["']?\s*[:=]\s*["'][^"']{6,100}/i.exec(t); if (k) h.push("KEY{" + k[0] + "}");
+  var L = /[A-Za-z0-9+\/=_-]{200,}/.exec(t); if (L) h.push("blob" + L[0].length + ":" + L[0].slice(0, 24));
   return h.join(" ");
 }
 function findIframes(html, base) {
