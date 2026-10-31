@@ -10,7 +10,7 @@ if (typeof globalThis.setTimeout !== "function") {
   globalThis.clearTimeout = function () {};
 }
 var DEBUG = true; // true: si el canal se reconoce pero no sale nada, aparece una entrada "DIAGNOSTICO". Poner en false al terminar de probar.
-var VERSION = "1.0.1";
+var VERSION = "1.0.2";
 var LABEL = "Lucha";
 var PREFIX = "cbl-lucha";
 var REFERER = "https://minhasdelicias.com/";
@@ -25,7 +25,7 @@ var SOURCES = [
 var AD_HOSTS = /aguadepez\.store|doubleclick|googlesyndication|google\.com|youtube\.com|facebook\.com/i;
 
 var TRACE = [];
-function trace(m) { TRACE.push(String(m).replace(/\s+/g, " ").slice(0, 160)); }
+function trace(m) { TRACE.push(String(m).replace(/\s+/g, " ").slice(0, 260)); }
 
 function isMine(id) { return String(id || "").toLowerCase().indexOf(PREFIX) >= 0; }
 
@@ -78,18 +78,38 @@ function unpack(html) {
   while (c--) dict[enc(c)] = k[c] || enc(c);
   return p.replace(/\b\w+\b/g, function (w) { return dict[w] != null ? dict[w] : w; });
 }
-function findPlaylist(html) {
-  var text = clean(html), m = M3U8.exec(text);
+// Direcciones relativas ("/stream/xx/master.m3u8") que muchos reproductores guardan en "hls2"/"hls4"/"file"/"source".
+var M3U8_REL = /["'](\/(?!\/)[^"'\s<>\\]*?\.m3u8(?:\?[^"'\s<>\\]*)?)["']/;
+function pick(text, base) {
+  var m = M3U8.exec(text);
   if (m) return m[0];
+  m = M3U8_REL.exec(text);
+  if (m && base) return origin(base) + m[1];
+  return "";
+}
+function findPlaylist(html, base) {
+  var text = clean(html), hit = pick(text, base);
+  if (hit) return hit;
   var packed = clean(unpack(text));
-  m = packed && M3U8.exec(packed);
-  if (m) return m[0];
+  hit = packed && pick(packed, base);
+  if (hit) return hit;
   var re = /atob\(\s*["']([A-Za-z0-9+\/=_-]{16,})["']\s*\)/g, b;
   while ((b = re.exec(text))) {
-    m = M3U8.exec(clean(b64decode(b[1])));
-    if (m) return m[0];
+    hit = pick(clean(b64decode(b[1])), base);
+    if (hit) return hit;
   }
   return "";
+}
+// Pistas para el diagnostico cuando una pagina no suelta la lista: que trae y donde mirar.
+function hints(html) {
+  var t = String(html || ""), h = [];
+  if (/eval\(function\(p,a,c,k,e/.test(t)) h.push("packer" + (unpack(t) ? " ok" : " NO-desempaca"));
+  var n = (t.match(/\.m3u8/g) || []).length; if (n) h.push("m3u8x" + n);
+  if (/atob\(/.test(t)) h.push("atob");
+  if (/jwplayer|clappr|hls\.js|videojs|Playerjs/i.test(t)) h.push((/jwplayer|clappr|hls\.js|videojs|Playerjs/i.exec(t) || [""])[0]);
+  var f = /(?:file|source|src|hls\d?|playlist)["']?\s*[:=]\s*["']([^"']{8,90})["']/i.exec(t); if (f) h.push("file=" + f[1]);
+  var d = /document\.location\s*=\s*["']?([^"';\s]{0,80})/.exec(t); if (d) h.push("redir=" + d[1]);
+  return h.join(" ");
 }
 function findIframes(html, base) {
   var out = [], re = /<iframe[^>]+src=["']([^"']+)["']/gi, m;
@@ -111,7 +131,7 @@ async function extract(url, referer, depth) {
   var host = hostOf(url), final = hostOf(r.url);
   var tag = host + (final && final !== host ? ">" + final : "") + " " + r.status + " " + r.text.length + "B";
   if (!r.ok) { trace(tag); return null; }
-  var found = findPlaylist(r.text);
+  var found = findPlaylist(r.text, r.url);
   if (found) { trace(tag + " m3u8 " + found.replace(/^https?:\/\//, "").slice(0, 110)); return { url: found, page: r.url }; }
   var frames = findIframes(r.text, r.url);
   if (frames.length && depth > 0) {
@@ -122,7 +142,7 @@ async function extract(url, referer, depth) {
     }
     return null;
   }
-  trace(tag + " nada: " + r.text.replace(/\s+/g, " ").slice(0, 90));
+  trace(tag + " nada [" + hints(r.text) + "] " + r.text.replace(/\s+/g, " ").slice(0, 60));
   return null;
 }
 
@@ -131,7 +151,7 @@ async function verify(url, page) {
   try {
     var r = await get(url, { "Referer": origin(page) + "/", "Origin": origin(page) }, 4500);
     if (r.ok) { var good = /^#EXTM3U/.test(r.text.replace(/^\s+/, "")); trace("verify 200 " + (good ? "lista" : "no es lista: " + r.text.slice(0, 60))); return good ? "ok" : "offline"; }
-    trace("verify " + r.status);
+    trace("verify " + r.status + (r.status === 0 ? " (sin lectura: se ofrece igual)" : ""));
     return r.status >= 400 ? "offline" : "ok";
   } catch (e) { trace("verify sin respuesta: " + String(e && e.message || e)); return "ok"; }
 }
