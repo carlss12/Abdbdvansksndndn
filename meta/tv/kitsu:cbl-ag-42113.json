@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42113",
+    "type": "tv",
+    "name": "09:00 Brentford vs Nottingham Forest (31/10)",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42113-0900.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42113-0900.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42113-0900.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Premier League"
+    ],
+    "description": "Premier League · 09:00 (hora de Ciudad de México) (31/10). Las opciones de transmisión se publican poco antes del partido."
+  }
+}

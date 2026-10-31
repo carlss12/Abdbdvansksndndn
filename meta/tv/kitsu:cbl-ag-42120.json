@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42120",
+    "type": "tv",
+    "name": "14:00 Barcelona vs Deportivo Alavés (31/10)",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42120-1400.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42120-1400.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42120-1400.png",
+    "posterShape": "landscape",
+    "genres": [
+      "LaLiga"
+    ],
+    "description": "LaLiga · 14:00 (hora de Ciudad de México) (31/10). Las opciones de transmisión se publican poco antes del partido."
+  }
+}

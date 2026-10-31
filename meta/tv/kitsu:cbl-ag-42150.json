@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42150",
+    "type": "tv",
+    "name": "06:00 Darmstadt 98 vs Magdeburg (31/10)",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42150-0600.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42150-0600.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42150-0600.png",
+    "posterShape": "landscape",
+    "genres": [
+      "2. Bundesliga"
+    ],
+    "description": "2. Bundesliga · 06:00 (hora de Ciudad de México) (31/10). Las opciones de transmisión se publican poco antes del partido."
+  }
+}

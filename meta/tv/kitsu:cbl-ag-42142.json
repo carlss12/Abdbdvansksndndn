@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42142",
+    "type": "tv",
+    "name": "15:30 Macará vs Barcelona (31/10)",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42142-1530.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42142-1530.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42142-1530.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Serie A"
+    ],
+    "description": "Serie A · 15:30 (hora de Ciudad de México) (31/10). 7 opciones de transmisión."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42116",
+    "type": "tv",
+    "name": "14:00 Aston Villa vs Fulham (31/10)",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42116-1400.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42116-1400.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42116-1400.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Premier League"
+    ],
+    "description": "Premier League · 14:00 (hora de Ciudad de México) (31/10). Las opciones de transmisión se publican poco antes del partido."
+  }
+}

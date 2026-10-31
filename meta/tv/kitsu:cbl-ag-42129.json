@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42129",
+    "type": "tv",
+    "name": "11:30 Bayern München vs Borussia Dortmund (31/10)",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42129-1130.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42129-1130.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42129-1130.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Bundesliga"
+    ],
+    "description": "Bundesliga · 11:30 (hora de Ciudad de México) (31/10). 2 opciones de transmisión."
+  }
+}

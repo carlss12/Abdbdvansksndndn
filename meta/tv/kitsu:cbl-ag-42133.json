@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-ag-42133",
+    "type": "tv",
+    "name": "16:15 Vélez Sarsfield vs San Lorenzo (31/10)",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42133-1615.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42133-1615.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42133-1615.png",
+    "posterShape": "landscape",
+    "genres": [
+      "Liga Profesional"
+    ],
+    "description": "Liga Profesional · 16:15 (hora de Ciudad de México) (31/10). 4 opciones de transmisión."
+  }
+}
