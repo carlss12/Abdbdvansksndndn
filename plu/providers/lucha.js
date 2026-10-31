@@ -10,7 +10,7 @@ if (typeof globalThis.setTimeout !== "function") {
   globalThis.clearTimeout = function () {};
 }
 var DEBUG = true; // true: si el canal se reconoce pero no sale nada, aparece una entrada "DIAGNOSTICO". Poner en false al terminar de probar.
-var VERSION = "1.0.4";
+var VERSION = "1.0.5";
 var LABEL = "Lucha";
 var PREFIX = "cbl-lucha";
 var REFERER = "https://minhasdelicias.com/";
@@ -87,6 +87,29 @@ function pick(text, base) {
   if (m && base) return origin(base) + m[1];
   return "";
 }
+// Pelar capas: bloques enormes en base64 que al decodificarse dan otro base64 (a veces con unos caracteres basura al inicio).
+function printable(s) {
+  if (!s) return 0;
+  var ok = 0;
+  for (var i = 0; i < s.length; i++) { var c = s.charCodeAt(i); if ((c >= 32 && c <= 126) || c === 10 || c === 13 || c === 9) ok++; }
+  return ok / s.length;
+}
+function peel(blob, base) {
+  var cur = String(blob || ""), layers = 0, hit = "";
+  while (layers < 12) {
+    var bestK = -1, bestScore = 0;
+    for (var k = 0; k < 12; k++) {
+      var sc = printable(b64decode(cur.slice(k, k + 240)));
+      if (sc > bestScore) { bestScore = sc; bestK = k; }
+    }
+    if (bestScore < 0.9) break;
+    cur = b64decode(cur.slice(bestK));
+    layers++;
+    hit = pick(clean(cur), base);
+    if (hit) return { url: hit, layers: layers, last: cur };
+  }
+  return { url: "", layers: layers, last: cur };
+}
 function findPlaylist(html, base) {
   var text = clean(html), hit = pick(text, base);
   if (hit) return hit;
@@ -101,6 +124,7 @@ function findPlaylist(html, base) {
     var rev = clean(b64decode(b[1].split("").reverse().join("")));
     hit = pick(rev, base);
     if (hit) return hit;
+    if (b[1].length >= 200) { var pr = peel(b[1], base); if (pr.url) return pr.url; }
   }
   return "";
 }
@@ -111,17 +135,18 @@ function hints(html) {
   var n = (t.match(/\.m3u8/g) || []).length; if (n) h.push("m3u8 x" + n);
   var pk = /jwplayer|clappr|hls\.js|videojs|Playerjs/i.exec(t); if (pk) h.push("player " + pk[0]);
   var bm = /[A-Za-z0-9+\/=_-]{200,}/.exec(t);
+  var lastTxt = "";
   if (bm) {
-    var i = bm.index, e = i + bm[0].length;
-    h.push("BLOB " + bm[0].length + " en " + i + " de " + t.length);
-    h.push("ANTES{" + vis(t.slice(Math.max(0, i - 160), i)) + "}");
-    h.push("DESPUES{" + vis(t.slice(e, e + 360)) + "}");
-    h.push("FIN{" + vis(bm[0].slice(-40)) + "}");
-    h.push("CAPA1{" + vis(b64decode(bm[0].slice(0, 160))).slice(0, 90) + "}");
+    h.push("BLOB " + bm[0].length + " de " + t.length);
+    var pr = peel(bm[0], null);
+    lastTxt = pr.last;
+    h.push("PELAR " + pr.layers + " capas, queda " + pr.last.length + "B printable " + Math.round(printable(pr.last.slice(0, 300)) * 100) + "%");
+    h.push("INICIO{" + vis(pr.last.slice(0, 150)) + "}");
+    h.push("FINAL{" + vis(pr.last.slice(-90)) + "}");
   }
   var k = /(?:hls|cmaf|dash|playlist|streamUrl|stream_url|manifest)\w{0,10}["']?\s*[:=]\s*["'](?:https?:)?\/[^"']{6,100}/i.exec(t); if (k) h.push("KEY{" + vis(k[0]) + "}");
   var hosts = [], re = /https?:\\?\/\\?\/([a-z0-9.-]+\.[a-z]{2,})/gi, m2;
-  while ((m2 = re.exec(t)) && hosts.length < 8) { var hh = m2[1].toLowerCase(); if (hosts.indexOf(hh) < 0 && !/w3\.org|schema\.org|ogp\.me|jsdelivr|googleapis/.test(hh)) hosts.push(hh); }
+  var tt = t + " " + lastTxt.slice(0, 60000); while ((m2 = re.exec(tt)) && hosts.length < 8) { var hh = m2[1].toLowerCase(); if (hosts.indexOf(hh) < 0 && !/w3\.org|schema\.org|ogp\.me|jsdelivr|googleapis/.test(hh)) hosts.push(hh); }
   if (hosts.length) h.push("HOSTS " + hosts.join(" "));
   return h;
 }
