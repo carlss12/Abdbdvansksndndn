@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-lucha-en-vivo",
+    "type": "tv",
+    "name": "Lucha en vivo",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-lucha-en-vivo.png?v=99c6af79",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-lucha-en-vivo.png?v=99c6af79",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/logos/cbl-lucha-en-vivo.png?v=99c6af79",
+    "posterShape": "landscape",
+    "genres": [
+      "Lucha"
+    ],
+    "description": "Canal en vivo — Lucha en vivo."
+  }
+}
