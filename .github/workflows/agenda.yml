@@ -4,6 +4,9 @@ on:
   schedule:
     # cada 30 minutos (GitHub puede retrasarlo unos minutos): asi los partidos terminados salen del catalogo
     - cron: '*/30 * * * *'
+  push:
+    branches: [main]
+    paths: ['lucha-datos/**', 'lucha-agenda.js']
   workflow_dispatch: {}
 
 permissions:
@@ -27,6 +30,9 @@ jobs:
 
       - name: Instalar dependencias
         run: npm install
+
+      - name: Generar catalogo de Lucha
+        run: node lucha-agenda.js
 
       - name: Generar agenda
         run: node agenda.js
