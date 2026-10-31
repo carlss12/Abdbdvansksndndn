@@ -51,6 +51,16 @@
       ]
     },
     {
+      "id": "kitsu:cbl-ag-42184",
+      "type": "tv",
+      "name": "07:00 Kuwait Major - Centre Court (Final)",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42184-0700.png",
+      "posterShape": "landscape",
+      "genres": [
+        "Tennis"
+      ]
+    },
+    {
       "id": "kitsu:cbl-ag-42121",
       "type": "tv",
       "name": "08:00 Bologna vs Monza",
@@ -58,56 +68,6 @@
       "posterShape": "landscape",
       "genres": [
         "Serie A"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42124",
-      "type": "tv",
-      "name": "08:30 Werder Bremen vs Hoffenheim",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42124-0830.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Bundesliga"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42125",
-      "type": "tv",
-      "name": "08:30 Schalke 04 vs RB Leipzig",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42125-0830.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Bundesliga"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42126",
-      "type": "tv",
-      "name": "08:30 Borussia M'gladbach vs Paderborn",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42126-0830.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Bundesliga"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42127",
-      "type": "tv",
-      "name": "08:30 Bayer Leverkusen vs Stuttgart",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42127-0830.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Bundesliga"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42128",
-      "type": "tv",
-      "name": "08:30 Augsburg vs Freiburg",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42128-0830.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Bundesliga"
       ]
     },
     {
@@ -121,26 +81,6 @@
       ]
     },
     {
-      "id": "kitsu:cbl-ag-42111",
-      "type": "tv",
-      "name": "09:00 Hull City vs Ipswich Town",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42111-0900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Premier League"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42112",
-      "type": "tv",
-      "name": "09:00 Coventry City vs Sunderland",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42112-0900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Premier League"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42113",
       "type": "tv",
       "name": "09:00 Brentford vs Nottingham Forest",
@@ -148,26 +88,6 @@
       "posterShape": "landscape",
       "genres": [
         "Premier League"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42114",
-      "type": "tv",
-      "name": "09:00 AFC Bournemouth vs Leeds United",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42114-0900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Premier League"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42149",
-      "type": "tv",
-      "name": "09:00 Millwall vs Derby County",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42149-0900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Championship"
       ]
     },
     {
@@ -211,16 +131,6 @@
       ]
     },
     {
-      "id": "kitsu:cbl-ag-42144",
-      "type": "tv",
-      "name": "10:00 Cerro vs Central Español",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42144-1000.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Primera División"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42160",
       "type": "tv",
       "name": "10:00 Fenerbahçe vs Göztepe",
@@ -231,30 +141,10 @@
       ]
     },
     {
-      "id": "kitsu:cbl-ag-42161",
-      "type": "tv",
-      "name": "10:00 Uruguay Montevideo vs Huracan FC",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42161-1000.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Segunda División"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42140",
       "type": "tv",
       "name": "10:30 Delfin vs Deportivo Cuenca",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42140-1030.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Serie A"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42122",
-      "type": "tv",
-      "name": "11:00 Udinese vs Roma",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42122-1100.png",
       "posterShape": "landscape",
       "genres": [
         "Serie A"
@@ -371,26 +261,6 @@
       ]
     },
     {
-      "id": "kitsu:cbl-ag-42162",
-      "type": "tv",
-      "name": "13:00 Fénix vs Cerrito",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42162-1300.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Segunda División"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42145",
-      "type": "tv",
-      "name": "13:30 Peñarol vs Wanderers",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42145-1330.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Primera División"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42153",
       "type": "tv",
       "name": "13:30 Karlsruher SC vs Heidenheim",
@@ -408,16 +278,6 @@
       "posterShape": "landscape",
       "genres": [
         "Serie A"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42130",
-      "type": "tv",
-      "name": "13:45 Troyes vs Le Mans",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42130-1345.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Ligue 1"
       ]
     },
     {

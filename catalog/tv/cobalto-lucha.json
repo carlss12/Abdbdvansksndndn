@@ -11,16 +11,6 @@
       ]
     },
     {
-      "id": "kitsu:cbl-lucha-ev-20261031-0200-aaa-heroes-inmortales-2026",
-      "type": "tv",
-      "name": "02:00 AAA Heroes Inmortales 2026",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261031-0200-aaa-heroes-inmortales-2026.png",
-      "posterShape": "landscape",
-      "genres": [
-        "AAA"
-      ]
-    },
-    {
       "id": "kitsu:cbl-lucha-ev-20261102-0000-wwe-raw",
       "type": "tv",
       "name": "Lun 02/11 00:00 WWE RAW",
