@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42147",
     "type": "tv",
-    "name": "16:30 Náutico vs Avaí (31/10)",
+    "name": "16:30 Náutico vs Avaí",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42147-1630.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42147-1630.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42147-1630.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Serie B"
     ],
-    "description": "Serie B · 16:30 (hora de Ciudad de México) (31/10). 2 opciones de transmisión."
+    "description": "Serie B · 16:30 (hora de Ciudad de México). 2 opciones de transmisión."
   }
 }

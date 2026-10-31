@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42148",
     "type": "tv",
-    "name": "06:30 Stoke City vs Preston North End (31/10)",
+    "name": "06:30 Stoke City vs Preston North End",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42148-0630.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42148-0630.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42148-0630.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Championship"
     ],
-    "description": "Championship · 06:30 (hora de Ciudad de México) (31/10). 1 opciones de transmisión."
+    "description": "Championship · 06:30 (hora de Ciudad de México). 1 opciones de transmisión."
   }
 }

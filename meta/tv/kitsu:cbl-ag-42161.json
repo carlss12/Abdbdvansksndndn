@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42161",
     "type": "tv",
-    "name": "10:00 Uruguay Montevideo vs Huracan FC (31/10)",
+    "name": "10:00 Uruguay Montevideo vs Huracan FC",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42161-1000.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42161-1000.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42161-1000.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Segunda División"
     ],
-    "description": "Segunda División · 10:00 (hora de Ciudad de México) (31/10). Las opciones de transmisión se publican poco antes del partido."
+    "description": "Segunda División · 10:00 (hora de Ciudad de México). Las opciones de transmisión se publican poco antes del partido."
   }
 }

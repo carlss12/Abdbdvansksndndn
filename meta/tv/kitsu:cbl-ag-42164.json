@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42164",
     "type": "tv",
-    "name": "17:00 Pachuca vs Tigres UANL (31/10)",
+    "name": "17:00 Pachuca vs Tigres UANL",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42164-1700.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42164-1700.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42164-1700.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Liga MX"
     ],
-    "description": "Liga MX · 17:00 (hora de Ciudad de México) (31/10). 5 opciones de transmisión."
+    "description": "Liga MX · 17:00 (hora de Ciudad de México). 5 opciones de transmisión."
   }
 }

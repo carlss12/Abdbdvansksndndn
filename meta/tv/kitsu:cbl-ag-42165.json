@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42165",
     "type": "tv",
-    "name": "19:05 Monterrey vs Tijuana (31/10)",
+    "name": "19:05 Monterrey vs Tijuana",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42165-1905.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42165-1905.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42165-1905.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Liga MX"
     ],
-    "description": "Liga MX · 19:05 (hora de Ciudad de México) (31/10). 6 opciones de transmisión."
+    "description": "Liga MX · 19:05 (hora de Ciudad de México). 6 opciones de transmisión."
   }
 }

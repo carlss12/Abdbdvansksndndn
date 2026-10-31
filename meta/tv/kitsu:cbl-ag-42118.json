@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42118",
     "type": "tv",
-    "name": "09:15 Rayo Vallecano vs Celta de Vigo (31/10)",
+    "name": "09:15 Rayo Vallecano vs Celta de Vigo",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42118-0915.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42118-0915.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42118-0915.png",
@@ -10,6 +10,6 @@
     "genres": [
       "LaLiga"
     ],
-    "description": "LaLiga · 09:15 (hora de Ciudad de México) (31/10). Las opciones de transmisión se publican poco antes del partido."
+    "description": "LaLiga · 09:15 (hora de Ciudad de México). Las opciones de transmisión se publican poco antes del partido."
   }
 }

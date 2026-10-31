@@ -1,19 +1,9 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42175",
-      "type": "tv",
-      "name": "23:00 Eveling Ortega vs. Alma Meraz",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42175-2300.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Boxeo"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42150",
       "type": "tv",
-      "name": "06:00 Darmstadt 98 vs Magdeburg (31/10)",
+      "name": "06:00 Darmstadt 98 vs Magdeburg",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42150-0600.png",
       "posterShape": "landscape",
       "genres": [
@@ -23,7 +13,7 @@
     {
       "id": "kitsu:cbl-ag-42151",
       "type": "tv",
-      "name": "06:00 Kaiserslautern vs Hertha BSC (31/10)",
+      "name": "06:00 Kaiserslautern vs Hertha BSC",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42151-0600.png",
       "posterShape": "landscape",
       "genres": [
@@ -33,7 +23,7 @@
     {
       "id": "kitsu:cbl-ag-42152",
       "type": "tv",
-      "name": "06:00 Wolfsburg vs Osnabrück (31/10)",
+      "name": "06:00 Wolfsburg vs Osnabrück",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42152-0600.png",
       "posterShape": "landscape",
       "genres": [
@@ -43,7 +33,7 @@
     {
       "id": "kitsu:cbl-ag-42109",
       "type": "tv",
-      "name": "06:30 Chelsea vs Manchester United (31/10)",
+      "name": "06:30 Chelsea vs Manchester United",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42109-0630.png",
       "posterShape": "landscape",
       "genres": [
@@ -53,7 +43,7 @@
     {
       "id": "kitsu:cbl-ag-42148",
       "type": "tv",
-      "name": "06:30 Stoke City vs Preston North End (31/10)",
+      "name": "06:30 Stoke City vs Preston North End",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42148-0630.png",
       "posterShape": "landscape",
       "genres": [
@@ -63,7 +53,7 @@
     {
       "id": "kitsu:cbl-ag-42117",
       "type": "tv",
-      "name": "07:00 Levante vs Atlético Madrid (31/10)",
+      "name": "07:00 Levante vs Atlético Madrid",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42117-0700.png",
       "posterShape": "landscape",
       "genres": [
@@ -73,7 +63,7 @@
     {
       "id": "kitsu:cbl-ag-42143",
       "type": "tv",
-      "name": "07:00 Racing vs Cerro Largo (31/10)",
+      "name": "07:00 Racing vs Cerro Largo",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42143-0700.png",
       "posterShape": "landscape",
       "genres": [
@@ -83,7 +73,7 @@
     {
       "id": "kitsu:cbl-ag-42171",
       "type": "tv",
-      "name": "07:00 Real Sociedad II vs Girona (31/10)",
+      "name": "07:00 Real Sociedad II vs Girona",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42171-0700.png",
       "posterShape": "landscape",
       "genres": [
@@ -93,7 +83,7 @@
     {
       "id": "kitsu:cbl-ag-42121",
       "type": "tv",
-      "name": "08:00 Bologna vs Monza (31/10)",
+      "name": "08:00 Bologna vs Monza",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42121-0800.png",
       "posterShape": "landscape",
       "genres": [
@@ -103,7 +93,7 @@
     {
       "id": "kitsu:cbl-ag-42124",
       "type": "tv",
-      "name": "08:30 Werder Bremen vs Hoffenheim (31/10)",
+      "name": "08:30 Werder Bremen vs Hoffenheim",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42124-0830.png",
       "posterShape": "landscape",
       "genres": [
@@ -113,7 +103,7 @@
     {
       "id": "kitsu:cbl-ag-42125",
       "type": "tv",
-      "name": "08:30 Schalke 04 vs RB Leipzig (31/10)",
+      "name": "08:30 Schalke 04 vs RB Leipzig",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42125-0830.png",
       "posterShape": "landscape",
       "genres": [
@@ -123,7 +113,7 @@
     {
       "id": "kitsu:cbl-ag-42126",
       "type": "tv",
-      "name": "08:30 Borussia M'gladbach vs Paderborn (31/10)",
+      "name": "08:30 Borussia M'gladbach vs Paderborn",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42126-0830.png",
       "posterShape": "landscape",
       "genres": [
@@ -133,7 +123,7 @@
     {
       "id": "kitsu:cbl-ag-42127",
       "type": "tv",
-      "name": "08:30 Bayer Leverkusen vs Stuttgart (31/10)",
+      "name": "08:30 Bayer Leverkusen vs Stuttgart",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42127-0830.png",
       "posterShape": "landscape",
       "genres": [
@@ -143,7 +133,7 @@
     {
       "id": "kitsu:cbl-ag-42128",
       "type": "tv",
-      "name": "08:30 Augsburg vs Freiburg (31/10)",
+      "name": "08:30 Augsburg vs Freiburg",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42128-0830.png",
       "posterShape": "landscape",
       "genres": [
@@ -153,7 +143,7 @@
     {
       "id": "kitsu:cbl-ag-42110",
       "type": "tv",
-      "name": "09:00 Manchester City vs Brighton & Hove Albion (31/10)",
+      "name": "09:00 Manchester City vs Brighton & Hove Albion",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42110-0900.png",
       "posterShape": "landscape",
       "genres": [
@@ -163,7 +153,7 @@
     {
       "id": "kitsu:cbl-ag-42111",
       "type": "tv",
-      "name": "09:00 Hull City vs Ipswich Town (31/10)",
+      "name": "09:00 Hull City vs Ipswich Town",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42111-0900.png",
       "posterShape": "landscape",
       "genres": [
@@ -173,7 +163,7 @@
     {
       "id": "kitsu:cbl-ag-42112",
       "type": "tv",
-      "name": "09:00 Coventry City vs Sunderland (31/10)",
+      "name": "09:00 Coventry City vs Sunderland",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42112-0900.png",
       "posterShape": "landscape",
       "genres": [
@@ -183,7 +173,7 @@
     {
       "id": "kitsu:cbl-ag-42113",
       "type": "tv",
-      "name": "09:00 Brentford vs Nottingham Forest (31/10)",
+      "name": "09:00 Brentford vs Nottingham Forest",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42113-0900.png",
       "posterShape": "landscape",
       "genres": [
@@ -193,7 +183,7 @@
     {
       "id": "kitsu:cbl-ag-42114",
       "type": "tv",
-      "name": "09:00 AFC Bournemouth vs Leeds United (31/10)",
+      "name": "09:00 AFC Bournemouth vs Leeds United",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42114-0900.png",
       "posterShape": "landscape",
       "genres": [
@@ -203,7 +193,7 @@
     {
       "id": "kitsu:cbl-ag-42149",
       "type": "tv",
-      "name": "09:00 Millwall vs Derby County (31/10)",
+      "name": "09:00 Millwall vs Derby County",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42149-0900.png",
       "posterShape": "landscape",
       "genres": [
@@ -213,7 +203,7 @@
     {
       "id": "kitsu:cbl-ag-42118",
       "type": "tv",
-      "name": "09:15 Rayo Vallecano vs Celta de Vigo (31/10)",
+      "name": "09:15 Rayo Vallecano vs Celta de Vigo",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42118-0915.png",
       "posterShape": "landscape",
       "genres": [
@@ -223,7 +213,7 @@
     {
       "id": "kitsu:cbl-ag-42172",
       "type": "tv",
-      "name": "09:15 Eibar vs Almería (31/10)",
+      "name": "09:15 Eibar vs Almería",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42172-0915.png",
       "posterShape": "landscape",
       "genres": [
@@ -233,7 +223,7 @@
     {
       "id": "kitsu:cbl-ag-42155",
       "type": "tv",
-      "name": "09:30 Feyenoord vs Fortuna Sittard (31/10)",
+      "name": "09:30 Feyenoord vs Fortuna Sittard",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42155-0930.png",
       "posterShape": "landscape",
       "genres": [
@@ -243,7 +233,7 @@
     {
       "id": "kitsu:cbl-ag-42169",
       "type": "tv",
-      "name": "09:30 MVV vs VVV (31/10)",
+      "name": "09:30 MVV vs VVV",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42169-0930.png",
       "posterShape": "landscape",
       "genres": [
@@ -253,7 +243,7 @@
     {
       "id": "kitsu:cbl-ag-42144",
       "type": "tv",
-      "name": "10:00 Cerro vs Central Español (31/10)",
+      "name": "10:00 Cerro vs Central Español",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42144-1000.png",
       "posterShape": "landscape",
       "genres": [
@@ -263,7 +253,7 @@
     {
       "id": "kitsu:cbl-ag-42160",
       "type": "tv",
-      "name": "10:00 Fenerbahçe vs Göztepe (31/10)",
+      "name": "10:00 Fenerbahçe vs Göztepe",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42160-1000.png",
       "posterShape": "landscape",
       "genres": [
@@ -273,7 +263,7 @@
     {
       "id": "kitsu:cbl-ag-42161",
       "type": "tv",
-      "name": "10:00 Uruguay Montevideo vs Huracan FC (31/10)",
+      "name": "10:00 Uruguay Montevideo vs Huracan FC",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42161-1000.png",
       "posterShape": "landscape",
       "genres": [
@@ -283,7 +273,7 @@
     {
       "id": "kitsu:cbl-ag-42140",
       "type": "tv",
-      "name": "10:30 Delfin vs Deportivo Cuenca (31/10)",
+      "name": "10:30 Delfin vs Deportivo Cuenca",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42140-1030.png",
       "posterShape": "landscape",
       "genres": [
@@ -293,7 +283,7 @@
     {
       "id": "kitsu:cbl-ag-42122",
       "type": "tv",
-      "name": "11:00 Udinese vs Roma (31/10)",
+      "name": "11:00 Udinese vs Roma",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42122-1100.png",
       "posterShape": "landscape",
       "genres": [
@@ -303,7 +293,7 @@
     {
       "id": "kitsu:cbl-ag-42154",
       "type": "tv",
-      "name": "11:00 Kifisia vs Olympiakos Piraeus (31/10)",
+      "name": "11:00 Kifisia vs Olympiakos Piraeus",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42154-1100.png",
       "posterShape": "landscape",
       "genres": [
@@ -313,7 +303,7 @@
     {
       "id": "kitsu:cbl-ag-42115",
       "type": "tv",
-      "name": "11:30 Tottenham Hotspur vs Crystal Palace (31/10)",
+      "name": "11:30 Tottenham Hotspur vs Crystal Palace",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42115-1130.png",
       "posterShape": "landscape",
       "genres": [
@@ -323,7 +313,7 @@
     {
       "id": "kitsu:cbl-ag-42119",
       "type": "tv",
-      "name": "11:30 Real Betis vs Málaga (31/10)",
+      "name": "11:30 Real Betis vs Málaga",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42119-1130.png",
       "posterShape": "landscape",
       "genres": [
@@ -333,7 +323,7 @@
     {
       "id": "kitsu:cbl-ag-42129",
       "type": "tv",
-      "name": "11:30 Bayern München vs Borussia Dortmund (31/10)",
+      "name": "11:30 Bayern München vs Borussia Dortmund",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42129-1130.png",
       "posterShape": "landscape",
       "genres": [
@@ -343,7 +333,7 @@
     {
       "id": "kitsu:cbl-ag-42173",
       "type": "tv",
-      "name": "11:30 Celta de Vigo II vs Córdoba (31/10)",
+      "name": "11:30 Celta de Vigo II vs Córdoba",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42173-1130.png",
       "posterShape": "landscape",
       "genres": [
@@ -353,7 +343,7 @@
     {
       "id": "kitsu:cbl-ag-42156",
       "type": "tv",
-      "name": "11:45 Heerenveen vs NEC (31/10)",
+      "name": "11:45 Heerenveen vs NEC",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42156-1145.png",
       "posterShape": "landscape",
       "genres": [
@@ -363,7 +353,7 @@
     {
       "id": "kitsu:cbl-ag-42157",
       "type": "tv",
-      "name": "11:45 PSV vs Willem II (31/10)",
+      "name": "11:45 PSV vs Willem II",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42157-1145.png",
       "posterShape": "landscape",
       "genres": [
@@ -373,7 +363,7 @@
     {
       "id": "kitsu:cbl-ag-42170",
       "type": "tv",
-      "name": "12:00 Al Hilal vs Al Fateh (31/10)",
+      "name": "12:00 Al Hilal vs Al Fateh",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42170-1200.png",
       "posterShape": "landscape",
       "genres": [
@@ -383,7 +373,7 @@
     {
       "id": "kitsu:cbl-ag-42135",
       "type": "tv",
-      "name": "13:00 Real Oruro vs Nacional Potosí (31/10)",
+      "name": "13:00 Real Oruro vs Nacional Potosí",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42135-1300.png",
       "posterShape": "landscape",
       "genres": [
@@ -393,7 +383,7 @@
     {
       "id": "kitsu:cbl-ag-42137",
       "type": "tv",
-      "name": "13:00 Coritiba vs Vitória (31/10)",
+      "name": "13:00 Coritiba vs Vitória",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42137-1300.png",
       "posterShape": "landscape",
       "genres": [
@@ -403,7 +393,7 @@
     {
       "id": "kitsu:cbl-ag-42141",
       "type": "tv",
-      "name": "13:00 Emelec vs Leones del Norte (31/10)",
+      "name": "13:00 Emelec vs Leones del Norte",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42141-1300.png",
       "posterShape": "landscape",
       "genres": [
@@ -413,7 +403,7 @@
     {
       "id": "kitsu:cbl-ag-42162",
       "type": "tv",
-      "name": "13:00 Fénix vs Cerrito (31/10)",
+      "name": "13:00 Fénix vs Cerrito",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42162-1300.png",
       "posterShape": "landscape",
       "genres": [
@@ -423,7 +413,7 @@
     {
       "id": "kitsu:cbl-ag-42145",
       "type": "tv",
-      "name": "13:30 Peñarol vs Wanderers (31/10)",
+      "name": "13:30 Peñarol vs Wanderers",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42145-1330.png",
       "posterShape": "landscape",
       "genres": [
@@ -433,7 +423,7 @@
     {
       "id": "kitsu:cbl-ag-42153",
       "type": "tv",
-      "name": "13:30 Karlsruher SC vs Heidenheim (31/10)",
+      "name": "13:30 Karlsruher SC vs Heidenheim",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42153-1330.png",
       "posterShape": "landscape",
       "genres": [
@@ -443,7 +433,7 @@
     {
       "id": "kitsu:cbl-ag-42123",
       "type": "tv",
-      "name": "13:45 Milan vs Internazionale (31/10)",
+      "name": "13:45 Milan vs Internazionale",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42123-1345.png",
       "posterShape": "landscape",
       "genres": [
@@ -453,7 +443,7 @@
     {
       "id": "kitsu:cbl-ag-42130",
       "type": "tv",
-      "name": "13:45 Troyes vs Le Mans (31/10)",
+      "name": "13:45 Troyes vs Le Mans",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42130-1345.png",
       "posterShape": "landscape",
       "genres": [
@@ -463,7 +453,7 @@
     {
       "id": "kitsu:cbl-ag-42116",
       "type": "tv",
-      "name": "14:00 Aston Villa vs Fulham (31/10)",
+      "name": "14:00 Aston Villa vs Fulham",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42116-1400.png",
       "posterShape": "landscape",
       "genres": [
@@ -473,7 +463,7 @@
     {
       "id": "kitsu:cbl-ag-42120",
       "type": "tv",
-      "name": "14:00 Barcelona vs Deportivo Alavés (31/10)",
+      "name": "14:00 Barcelona vs Deportivo Alavés",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42120-1400.png",
       "posterShape": "landscape",
       "genres": [
@@ -483,7 +473,7 @@
     {
       "id": "kitsu:cbl-ag-42132",
       "type": "tv",
-      "name": "14:00 Deportivo Riestra vs Talleres Córdoba (31/10)",
+      "name": "14:00 Deportivo Riestra vs Talleres Córdoba",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42132-1400.png",
       "posterShape": "landscape",
       "genres": [
@@ -493,7 +483,7 @@
     {
       "id": "kitsu:cbl-ag-42158",
       "type": "tv",
-      "name": "14:00 Ajax vs AZ (31/10)",
+      "name": "14:00 Ajax vs AZ",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42158-1400.png",
       "posterShape": "landscape",
       "genres": [
@@ -503,7 +493,7 @@
     {
       "id": "kitsu:cbl-ag-42159",
       "type": "tv",
-      "name": "14:00 Cambuur vs Go Ahead Eagles (31/10)",
+      "name": "14:00 Cambuur vs Go Ahead Eagles",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42159-1400.png",
       "posterShape": "landscape",
       "genres": [
@@ -513,7 +503,7 @@
     {
       "id": "kitsu:cbl-ag-42174",
       "type": "tv",
-      "name": "14:00 Albacete vs Sabadell (31/10)",
+      "name": "14:00 Albacete vs Sabadell",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42174-1400.png",
       "posterShape": "landscape",
       "genres": [
@@ -523,7 +513,7 @@
     {
       "id": "kitsu:cbl-ag-42108",
       "type": "tv",
-      "name": "14:30 Alianza Atlético vs Juan Pablo II College (31/10)",
+      "name": "14:30 Alianza Atlético vs Juan Pablo II College",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42108-1430.png",
       "posterShape": "landscape",
       "genres": [
@@ -533,7 +523,7 @@
     {
       "id": "kitsu:cbl-ag-42131",
       "type": "tv",
-      "name": "14:30 Porto vs Estoril (31/10)",
+      "name": "14:30 Porto vs Estoril",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42131-1430.png",
       "posterShape": "landscape",
       "genres": [
@@ -543,7 +533,7 @@
     {
       "id": "kitsu:cbl-ag-42146",
       "type": "tv",
-      "name": "14:30 Vila Nova vs Juventude (31/10)",
+      "name": "14:30 Vila Nova vs Juventude",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42146-1430.png",
       "posterShape": "landscape",
       "genres": [
@@ -553,7 +543,7 @@
     {
       "id": "kitsu:cbl-ag-42138",
       "type": "tv",
-      "name": "15:00 O'Higgins vs Ñublense (31/10)",
+      "name": "15:00 O'Higgins vs Ñublense",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42138-1500.png",
       "posterShape": "landscape",
       "genres": [
@@ -563,7 +553,7 @@
     {
       "id": "kitsu:cbl-ag-42136",
       "type": "tv",
-      "name": "15:15 ABB vs San Antonio Bulo Bulo (31/10)",
+      "name": "15:15 ABB vs San Antonio Bulo Bulo",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42136-1515.png",
       "posterShape": "landscape",
       "genres": [
@@ -573,7 +563,7 @@
     {
       "id": "kitsu:cbl-ag-42142",
       "type": "tv",
-      "name": "15:30 Macará vs Barcelona (31/10)",
+      "name": "15:30 Macará vs Barcelona",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42142-1530.png",
       "posterShape": "landscape",
       "genres": [
@@ -583,7 +573,7 @@
     {
       "id": "kitsu:cbl-ag-42163",
       "type": "tv",
-      "name": "16:00 Rentistas vs La Luz (31/10)",
+      "name": "16:00 Rentistas vs La Luz",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42163-1600.png",
       "posterShape": "landscape",
       "genres": [
@@ -593,7 +583,7 @@
     {
       "id": "kitsu:cbl-ag-42133",
       "type": "tv",
-      "name": "16:15 Vélez Sarsfield vs San Lorenzo (31/10)",
+      "name": "16:15 Vélez Sarsfield vs San Lorenzo",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42133-1615.png",
       "posterShape": "landscape",
       "genres": [
@@ -603,7 +593,7 @@
     {
       "id": "kitsu:cbl-ag-42147",
       "type": "tv",
-      "name": "16:30 Náutico vs Avaí (31/10)",
+      "name": "16:30 Náutico vs Avaí",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42147-1630.png",
       "posterShape": "landscape",
       "genres": [
@@ -613,7 +603,7 @@
     {
       "id": "kitsu:cbl-ag-42139",
       "type": "tv",
-      "name": "17:00 Llaneros vs Junior (31/10)",
+      "name": "17:00 Llaneros vs Junior",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42139-1700.png",
       "posterShape": "landscape",
       "genres": [
@@ -623,7 +613,7 @@
     {
       "id": "kitsu:cbl-ag-42164",
       "type": "tv",
-      "name": "17:00 Pachuca vs Tigres UANL (31/10)",
+      "name": "17:00 Pachuca vs Tigres UANL",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42164-1700.png",
       "posterShape": "landscape",
       "genres": [
@@ -633,7 +623,7 @@
     {
       "id": "kitsu:cbl-ag-42134",
       "type": "tv",
-      "name": "18:30 Estudiantes vs Instituto (31/10)",
+      "name": "18:30 Estudiantes vs Instituto",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42134-1830.png",
       "posterShape": "landscape",
       "genres": [
@@ -643,7 +633,7 @@
     {
       "id": "kitsu:cbl-ag-42165",
       "type": "tv",
-      "name": "19:05 Monterrey vs Tijuana (31/10)",
+      "name": "19:05 Monterrey vs Tijuana",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42165-1905.png",
       "posterShape": "landscape",
       "genres": [
@@ -653,7 +643,7 @@
     {
       "id": "kitsu:cbl-ag-42166",
       "type": "tv",
-      "name": "19:05 Guadalajara vs Atlante (31/10)",
+      "name": "19:05 Guadalajara vs Atlante",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42166-1905.png",
       "posterShape": "landscape",
       "genres": [
@@ -663,7 +653,7 @@
     {
       "id": "kitsu:cbl-ag-42167",
       "type": "tv",
-      "name": "21:10 América vs Toluca (31/10)",
+      "name": "21:10 América vs Toluca",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42167-2110.png",
       "posterShape": "landscape",
       "genres": [
@@ -673,7 +663,7 @@
     {
       "id": "kitsu:cbl-ag-42168",
       "type": "tv",
-      "name": "21:10 Necaxa vs Santos Laguna (31/10)",
+      "name": "21:10 Necaxa vs Santos Laguna",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42168-2110.png",
       "posterShape": "landscape",
       "genres": [

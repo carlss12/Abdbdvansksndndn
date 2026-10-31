@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42131",
     "type": "tv",
-    "name": "14:30 Porto vs Estoril (31/10)",
+    "name": "14:30 Porto vs Estoril",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42131-1430.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42131-1430.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42131-1430.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Primeira Liga"
     ],
-    "description": "Primeira Liga · 14:30 (hora de Ciudad de México) (31/10). 4 opciones de transmisión."
+    "description": "Primeira Liga · 14:30 (hora de Ciudad de México). 4 opciones de transmisión."
   }
 }

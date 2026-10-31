@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42163",
     "type": "tv",
-    "name": "16:00 Rentistas vs La Luz (31/10)",
+    "name": "16:00 Rentistas vs La Luz",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42163-1600.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42163-1600.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42163-1600.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Segunda División"
     ],
-    "description": "Segunda División · 16:00 (hora de Ciudad de México) (31/10). Las opciones de transmisión se publican poco antes del partido."
+    "description": "Segunda División · 16:00 (hora de Ciudad de México). Las opciones de transmisión se publican poco antes del partido."
   }
 }

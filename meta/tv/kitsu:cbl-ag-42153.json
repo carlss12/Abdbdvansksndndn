@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42153",
     "type": "tv",
-    "name": "13:30 Karlsruher SC vs Heidenheim (31/10)",
+    "name": "13:30 Karlsruher SC vs Heidenheim",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42153-1330.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42153-1330.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42153-1330.png",
@@ -10,6 +10,6 @@
     "genres": [
       "2. Bundesliga"
     ],
-    "description": "2. Bundesliga · 13:30 (hora de Ciudad de México) (31/10). 1 opciones de transmisión."
+    "description": "2. Bundesliga · 13:30 (hora de Ciudad de México). 1 opciones de transmisión."
   }
 }

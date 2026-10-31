@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42159",
     "type": "tv",
-    "name": "14:00 Cambuur vs Go Ahead Eagles (31/10)",
+    "name": "14:00 Cambuur vs Go Ahead Eagles",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42159-1400.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42159-1400.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42159-1400.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Eredivisie"
     ],
-    "description": "Eredivisie · 14:00 (hora de Ciudad de México) (31/10). 3 opciones de transmisión."
+    "description": "Eredivisie · 14:00 (hora de Ciudad de México). 3 opciones de transmisión."
   }
 }

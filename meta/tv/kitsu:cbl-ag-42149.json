@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42149",
     "type": "tv",
-    "name": "09:00 Millwall vs Derby County (31/10)",
+    "name": "09:00 Millwall vs Derby County",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42149-0900.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42149-0900.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42149-0900.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Championship"
     ],
-    "description": "Championship · 09:00 (hora de Ciudad de México) (31/10). Las opciones de transmisión se publican poco antes del partido."
+    "description": "Championship · 09:00 (hora de Ciudad de México). Las opciones de transmisión se publican poco antes del partido."
   }
 }

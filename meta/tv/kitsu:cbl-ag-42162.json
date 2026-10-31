@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42162",
     "type": "tv",
-    "name": "13:00 Fénix vs Cerrito (31/10)",
+    "name": "13:00 Fénix vs Cerrito",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42162-1300.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42162-1300.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42162-1300.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Segunda División"
     ],
-    "description": "Segunda División · 13:00 (hora de Ciudad de México) (31/10). Las opciones de transmisión se publican poco antes del partido."
+    "description": "Segunda División · 13:00 (hora de Ciudad de México). Las opciones de transmisión se publican poco antes del partido."
   }
 }

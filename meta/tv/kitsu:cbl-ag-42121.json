@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42121",
     "type": "tv",
-    "name": "08:00 Bologna vs Monza (31/10)",
+    "name": "08:00 Bologna vs Monza",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42121-0800.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42121-0800.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42121-0800.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Serie A"
     ],
-    "description": "Serie A · 08:00 (hora de Ciudad de México) (31/10). Las opciones de transmisión se publican poco antes del partido."
+    "description": "Serie A · 08:00 (hora de Ciudad de México). Las opciones de transmisión se publican poco antes del partido."
   }
 }

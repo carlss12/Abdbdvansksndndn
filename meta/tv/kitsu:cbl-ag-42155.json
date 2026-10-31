@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42155",
     "type": "tv",
-    "name": "09:30 Feyenoord vs Fortuna Sittard (31/10)",
+    "name": "09:30 Feyenoord vs Fortuna Sittard",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42155-0930.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42155-0930.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42155-0930.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Eredivisie"
     ],
-    "description": "Eredivisie · 09:30 (hora de Ciudad de México) (31/10). 2 opciones de transmisión."
+    "description": "Eredivisie · 09:30 (hora de Ciudad de México). 2 opciones de transmisión."
   }
 }

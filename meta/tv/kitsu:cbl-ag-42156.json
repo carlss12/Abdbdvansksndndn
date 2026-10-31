@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42156",
     "type": "tv",
-    "name": "11:45 Heerenveen vs NEC (31/10)",
+    "name": "11:45 Heerenveen vs NEC",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42156-1145.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42156-1145.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42156-1145.png",
@@ -10,6 +10,6 @@
     "genres": [
       "Eredivisie"
     ],
-    "description": "Eredivisie · 11:45 (hora de Ciudad de México) (31/10). 3 opciones de transmisión."
+    "description": "Eredivisie · 11:45 (hora de Ciudad de México). 3 opciones de transmisión."
   }
 }

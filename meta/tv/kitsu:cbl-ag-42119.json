@@ -2,7 +2,7 @@
   "meta": {
     "id": "kitsu:cbl-ag-42119",
     "type": "tv",
-    "name": "11:30 Real Betis vs Málaga (31/10)",
+    "name": "11:30 Real Betis vs Málaga",
     "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42119-1130.png",
     "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42119-1130.png",
     "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42119-1130.png",
@@ -10,6 +10,6 @@
     "genres": [
       "LaLiga"
     ],
-    "description": "LaLiga · 11:30 (hora de Ciudad de México) (31/10). 5 opciones de transmisión."
+    "description": "LaLiga · 11:30 (hora de Ciudad de México). 5 opciones de transmisión."
   }
 }
