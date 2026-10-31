@@ -1,6 +1,6 @@
 {
-  "name": "Cipres T + Onix T + Marfil T + Berilo T",
-  "version": "1.7",
+  "name": "Cipres T + Onix T + Marfil T + Berilo T + Lucha T",
+  "version": "1.8",
   "scrapers": [
     {
       "id": "CipresT",
@@ -57,6 +57,21 @@
         "tv"
       ],
       "filename": "providers/berilo.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
+    },
+    {
+      "id": "LuchaT",
+      "name": "Lucha T",
+      "description": "Lucha en vivo (SmackDown, CMLL). Se activa al abrir Lucha en vivo.",
+      "version": "1.0",
+      "author": "-",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/lucha.js",
       "enabled": true,
       "contentLanguage": [
         "es"
