@@ -1,16 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42066",
-      "type": "tv",
-      "name": "15:00 Deportivo Pereira vs Jaguares de Córdoba",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42066-1500.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Primera A"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42088",
       "type": "tv",
       "name": "15:55 F1 – GP México – Práctica 2",
