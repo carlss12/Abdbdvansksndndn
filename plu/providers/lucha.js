@@ -9,8 +9,8 @@ if (typeof globalThis.setTimeout !== "function") {
   globalThis.setTimeout = function () { return 1; };
   globalThis.clearTimeout = function () {};
 }
-var DEBUG = true; // true: si el canal se reconoce pero no sale nada, aparece una entrada "DIAGNOSTICO". Poner en false al terminar de probar.
-var VERSION = "1.0.5";
+var DEBUG = 1; // 0: nunca muestra diagnostico | 1: solo aparece "DIAGNOSTICO" si no sale ninguna fuente | 2: siempre (para depurar)
+var VERSION = "1.0.7";
 var LABEL = "Lucha";
 var PREFIX = "cbl-lucha";
 var REFERER = "https://minhasdelicias.com/";
@@ -18,9 +18,8 @@ var UA = "Mozilla/5.0 (Linux; Android 13; moto g82 5G) AppleWebKit/537.36 (KHTML
 
 // [nombre a mostrar, pagina del reproductor]: para agregar otro, una linea mas.
 var SOURCES = [
-  ["Opción 1 · Ringmotif", "https://ringmotif.net/e/jmekma4q2tzcn"],
-  ["Opción 2 · Blogger", "https://weye26.blogspot.com/p/f.html"],
-  ["Opción 3 · VK Video", "https://live.vkvideo.ru/app/embed/noobcraftero"]
+  ["Opción 1 · Blogger", "https://weye26.blogspot.com/p/f.html"],
+  ["Opción 2 · VK Video", "https://live.vkvideo.ru/app/embed/noobcraftero"]
 ];
 var AD_HOSTS = /aguadepez\.store|doubleclick|googlesyndication|google\.com|youtube\.com|facebook\.com/i;
 
@@ -207,8 +206,8 @@ async function verify(url, page) {
   try {
     var r = await get(url, { "Referer": origin(page) + "/", "Origin": origin(page) }, 4500);
     if (r.ok) { var good = /^#EXTM3U/.test(r.text.replace(/^\s+/, "")); trace("verify 200 " + (good ? "lista" : "no es lista: " + r.text.slice(0, 60))); return good ? "ok" : "offline"; }
-    trace("verify " + r.status + (r.status === 0 ? " (sin lectura: se ofrece igual)" : ""));
-    return r.status >= 400 ? "offline" : "ok";
+    trace("verify " + r.status + (r.status === 0 ? " (sin respuesta real: no se ofrece)" : ""));
+    return (r.status >= 400 || r.status === 0) ? "offline" : "ok";
   } catch (e) { trace("verify sin respuesta: " + String(e && e.message || e)); return "ok"; }
 }
 
@@ -235,7 +234,7 @@ async function getStreams(tmdbId, type, season, episode) {
     var o = origin(f.page);
     results.push({ name: LABEL, title: f.name + " · " + hostOf(f.url), url: f.url, quality: "EN VIVO", headers: { "Referer": o + "/", "Origin": o, "User-Agent": UA } });
   });
-  if (DEBUG) results.push({ name: LABEL, title: "", url: "https://example.com/", quality: "🛠 DIAGNOSTICO (no reproducir)\n" + TRACE.join("\n"), headers: {} }); // con DEBUG sale siempre, aunque haya fuentes
+  if (DEBUG === 2 || (DEBUG && !results.length)) results.push({ name: LABEL, title: "", url: "https://example.com/", quality: "🛠 DIAGNOSTICO (no reproducir)\n" + TRACE.join("\n"), headers: {} }); // con DEBUG = 2 sale siempre
   return results;
 }
 
