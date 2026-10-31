@@ -207,7 +207,7 @@ async function main() {
   const CACHE_BUST = process.env.GITHUB_SHA ? process.env.GITHUB_SHA.slice(0, 8) : String(Date.now());
 
   // Borra lo generado, menos lo de la agenda (lo maneja agenda.js: catalogo cobalto-agenda y metas kitsu:cbl-ag-*).
-  const esDeAgenda = (f) => f === 'cobalto-agenda.json' || f.startsWith('kitsu:cbl-ag-');
+  const esDeAgenda = (f) => f === 'cobalto-agenda.json' || f.startsWith('kitsu:cbl-ag-') || f === 'cobalto-lucha.json' || f.startsWith('kitsu:cbl-lucha-ev-'); // lucha-agenda.js maneja el catalogo cobalto-lucha
   for (const d of ['meta/tv', 'catalog/tv']) {
     const dir = path.join(OUT_DIR, d);
     if (fs.existsSync(dir)) for (const f of fs.readdirSync(dir)) if (!esDeAgenda(f)) fs.rmSync(path.join(dir, f), { recursive: true, force: true });
@@ -250,13 +250,13 @@ async function main() {
 
   const manifest = {
     id: ADDON_ID,
-    version: '1.1.0', // subir al agregar catalogos: Nuvio puede no refrescar el manifest si la version no cambia
+    version: '1.2.0', // subir al agregar catalogos: Nuvio puede no refrescar el manifest si la version no cambia
     name: ADDON_NAME,
     description: 'Guía de canales en vivo',
     resources: ['catalog', 'meta', 'stream'],
     types: ['tv'],
     idPrefixes: [PREFIX],
-    catalogs: [...CATALOGS.map(c => ({ type: 'tv', id: c.id, name: c.name })), { type: 'tv', id: 'cobalto-agenda', name: 'Agenda' }],
+    catalogs: [...CATALOGS.map(c => ({ type: 'tv', id: c.id, name: c.name })), { type: 'tv', id: 'cobalto-agenda', name: 'Agenda' }, { type: 'tv', id: 'cobalto-lucha', name: 'Lucha' }],
     behaviorHints: { configurable: false }
   };
   fs.writeFileSync(path.join(OUT_DIR, 'manifest.json'), JSON.stringify(manifest, null, 2));
