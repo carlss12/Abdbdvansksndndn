@@ -1,6 +1,6 @@
 {
   "id": "org.cobalto.guia.t",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "name": "Suki",
   "description": "Guía de canales en vivo",
   "resources": [
@@ -34,6 +34,11 @@
       "type": "tv",
       "id": "cobalto-agenda",
       "name": "Agenda"
+    },
+    {
+      "type": "tv",
+      "id": "cobalto-lucha",
+      "name": "Lucha"
     }
   ],
   "behaviorHints": {
