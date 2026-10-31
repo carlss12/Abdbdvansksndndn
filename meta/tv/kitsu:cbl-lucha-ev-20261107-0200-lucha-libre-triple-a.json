@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "kitsu:cbl-lucha-ev-20261107-0200-lucha-libre-triple-a",
+    "type": "tv",
+    "name": "Sáb 07/11 02:00 Lucha Libre Triple A",
+    "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261107-0200-lucha-libre-triple-a.png",
+    "logo": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261107-0200-lucha-libre-triple-a.png",
+    "background": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261107-0200-lucha-libre-triple-a.png",
+    "posterShape": "landscape",
+    "genres": [
+      "AAA"
+    ],
+    "description": "Lucha Libre Triple A · sábado 7 de noviembre, 02:00 (hora de Ciudad de México). Se abre con las fuentes del canal Lucha en vivo: solo reproduce mientras el evento esté en vivo en ellas."
+  }
+}

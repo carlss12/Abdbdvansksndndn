@@ -1,30 +1,10 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42150",
-      "type": "tv",
-      "name": "06:00 Darmstadt 98 vs Magdeburg",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42150-0600.png",
-      "posterShape": "landscape",
-      "genres": [
-        "2. Bundesliga"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42151",
       "type": "tv",
       "name": "06:00 Kaiserslautern vs Hertha BSC",
       "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42151-0600.png",
-      "posterShape": "landscape",
-      "genres": [
-        "2. Bundesliga"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42152",
-      "type": "tv",
-      "name": "06:00 Wolfsburg vs Osnabrück",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42152-0600.png",
       "posterShape": "landscape",
       "genres": [
         "2. Bundesliga"
@@ -58,16 +38,6 @@
       "posterShape": "landscape",
       "genres": [
         "LaLiga"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42143",
-      "type": "tv",
-      "name": "07:00 Racing vs Cerro Largo",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42143-0700.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Primera División"
       ]
     },
     {

@@ -61,6 +61,16 @@
       ]
     },
     {
+      "id": "kitsu:cbl-lucha-ev-20261107-0200-lucha-libre-triple-a",
+      "type": "tv",
+      "name": "Sáb 07/11 02:00 Lucha Libre Triple A",
+      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/lucha-cards/ev-20261107-0200-lucha-libre-triple-a.png",
+      "posterShape": "landscape",
+      "genres": [
+        "AAA"
+      ]
+    },
+    {
       "id": "kitsu:cbl-lucha-ev-20261107-1700-wwe-crown-jewel-2026",
       "type": "tv",
       "name": "Sáb 07/11 17:00 WWE Crown Jewel 2026",
