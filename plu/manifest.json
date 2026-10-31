@@ -1,6 +1,6 @@
 {
   "name": "Cipres T + Onix T + Marfil T + Berilo T + Lucha T",
-  "version": "2.0",
+  "version": "2.1",
   "scrapers": [
     {
       "id": "CipresT",
@@ -66,7 +66,7 @@
       "id": "LuchaT",
       "name": "Lucha T",
       "description": "Lucha en vivo (SmackDown, CMLL). Se activa al abrir Lucha en vivo.",
-      "version": "1.2.1",
+      "version": "1.3",
       "author": "-",
       "supportedTypes": [
         "tv"
