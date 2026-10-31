@@ -1,1 +1,10 @@
-
+{
+  "fuente": "luchaonline.com (Hora WWE y horario de shows semanales, captura del 30/10/2026)",
+  "semanales": [
+    { "dia": "Lunes", "hora": "18:00", "show": "WWE RAW" },
+    { "dia": "Martes", "hora": "18:00", "show": "WWE NXT" },
+    { "dia": "Jueves", "hora": "18:00", "show": "TNA Impact" },
+    { "dia": "Viernes", "hora": "18:00", "show": "WWE SmackDown" },
+    { "dia": "Sabado", "hora": "20:00", "show": "Lucha Libre Triple A" }
+  ]
+}
