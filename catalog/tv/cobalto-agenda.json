@@ -1,66 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42072",
-      "type": "tv",
-      "name": "19:00 Atlético San Luis vs Atlas",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42072-1900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Liga MX"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42073",
-      "type": "tv",
-      "name": "19:00 Juárez vs Querétaro",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42073-1900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Liga MX"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42075",
-      "type": "tv",
-      "name": "19:00 Correcaminos UAT vs Venados",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42075-1900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Liga de Expansión MX"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42091",
-      "type": "tv",
-      "name": "19:00 ESPN Knockout – LFA 245 – Juliano Prescendo (BRA) vs. Ansar Khamzaev (USA)",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42091-1900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Boxeo"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42092",
-      "type": "tv",
-      "name": "19:00 Golf – Asia Pacific Amateur Championship – Tercera Ronda",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42092-1900.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Golf"
-      ]
-    },
-    {
-      "id": "kitsu:cbl-ag-42067",
-      "type": "tv",
-      "name": "19:05 Atlético Bucaramanga vs Deportivo Pasto",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42067-1905.png",
-      "posterShape": "landscape",
-      "genres": [
-        "Primera A"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42078",
       "type": "tv",
       "name": "20:00 Pérez Zeledón vs Puntarenas",
