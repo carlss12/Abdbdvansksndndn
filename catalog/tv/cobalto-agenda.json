@@ -1,16 +1,6 @@
 {
   "metas": [
     {
-      "id": "kitsu:cbl-ag-42151",
-      "type": "tv",
-      "name": "06:00 Kaiserslautern vs Hertha BSC",
-      "poster": "https://raw.githubusercontent.com/carlss12/Abdbdvansksndndn/main/agenda/cards/ag-42151-0600.png",
-      "posterShape": "landscape",
-      "genres": [
-        "2. Bundesliga"
-      ]
-    },
-    {
       "id": "kitsu:cbl-ag-42109",
       "type": "tv",
       "name": "06:30 Chelsea vs Manchester United",
